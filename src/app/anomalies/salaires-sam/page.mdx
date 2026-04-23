@@ -1,0 +1,194 @@
+export const metadata = {
+  title: "Salaires mal reportés : l'erreur invisible qui réduit votre pension à vie",
+  description:
+    "Le SAM est calculé sur les 25 meilleures années. Une déclaration d'employeur erronée ou une conversion franc-euro défaillante peut coûter des centaines d'euros par mois.",
+};
+
+<ArticleShell
+  rubrique="Anomalies · Impact majeur"
+  titreHtml="Salaires mal reportés : l'erreur <em>invisible</em> qui réduit votre pension à vie"
+  chapo="Votre pension de base est calculée sur la moyenne de vos vingt-cinq meilleures années de salaire. Si un employeur a déclaré incorrectement, ou si une conversion franc-euro a mal été opérée, votre Salaire Annuel Moyen — et donc votre pension — est définitivement amputé. Focus sur l'anomalie la plus technique mais aussi l'une des plus coûteuses."
+  auteur="la rédaction d'erreur-retraite.fr"
+  datePublication="2026-04-02"
+  tempsLecture={9}
+  coSignature="competence-retraite"
+  slug="salaires-sam"
+  chiffres={[
+    { num: "25", label: "meilleures années retenues", source: "Régime général" },
+    { num: "48 060 €", label: "PASS 2026 (plafond annuel)", source: "Décret officiel" },
+    { num: "2002", label: "passage franc-euro, source de failles" },
+    { num: "50 %", label: "taux plein du régime général" },
+  ]}
+>
+
+## Le SAM : mécanisme de calcul et enjeux
+
+Le **Salaire Annuel Moyen (SAM)** constitue le pivot du calcul de la
+pension de base au régime général des salariés du privé. Il est obtenu
+en appliquant une formule relativement simple mais dont chaque
+composant peut être source d'erreur :
+
+**SAM = moyenne des 25 meilleures années de salaire, plafonnées
+au PASS de chaque année, revalorisées par les coefficients officiels
+de la CNAV.**
+
+La pension de base brute annuelle est ensuite calculée par la formule :
+
+**Pension = SAM × taux de liquidation (50 % au taux plein) × (durée
+d'assurance / durée requise)**
+
+Une erreur portant sur l'une des vingt-cinq années retenues se
+répercute donc à vie sur la pension. Pour un cadre dont le SAM
+s'établit à 40 000 € annuels, un écart de 2 000 € sur une année
+retenue représente environ **3 € de pension mensuelle en moins à
+vie** — soit plus de 700 € sur vingt ans de retraite pour un seul
+écart annuel.
+
+## Les 25 meilleures années : règle et revalorisation
+
+La règle des vingt-cinq meilleures années s'applique depuis la réforme
+Balladur de 1993, qui a remplacé l'ancien calcul sur les dix meilleures
+années. La transition s'est faite progressivement entre 1994 et 2008.
+
+Les points essentiels à connaître :
+
+- Seules les **années cotisées au régime général** entrent dans le
+  calcul ; les périodes assimilées (chômage, maladie) ne génèrent pas
+  de salaire reporté ;
+- Chaque année est **plafonnée au PASS** de l'année concernée : les
+  revenus au-delà de ce plafond ne sont pas pris en compte ;
+- Les salaires sont **revalorisés** par des coefficients annuels
+  publiés par la CNAV pour neutraliser l'inflation ;
+- L'algorithme de sélection retient mécaniquement les **vingt-cinq
+  années au salaire revalorisé le plus élevé**, pas les plus récentes.
+
+Pour une carrière de quarante ans, quinze années seront donc **écartées
+du calcul**. En pratique, ce sont souvent les années de début de
+carrière (salaires d'embauche faibles) et d'éventuelles années
+incomplètes (temps partiels, interruptions).
+
+<EncadreReglementaire
+  label="Plafond annuel (PASS)"
+  valeur="48 060 €"
+  desc="Plafond annuel de la Sécurité sociale 2026. Les revenus supérieurs à ce plafond ne sont pas retenus dans le calcul du SAM. L'écrêtement correct au PASS est l'une des sources les plus fréquentes d'erreur pour les hauts salaires."
+  source="Décret officiel 2025"
+/>
+
+## Les erreurs d'employeurs : grands groupes et PME
+
+Deux types d'erreurs dominent dans les déclarations d'employeurs :
+
+- Le **sous-report** : un employeur n'a pas déclaré tout ou partie du
+  salaire versé. Cas fréquent pour les primes exceptionnelles, les
+  avantages en nature non soumis à cotisation, ou les salaires de
+  compléments (heures supplémentaires) traités à part ;
+- Le **sur-plafonnement** : un salaire supérieur au PASS n'a pas été
+  correctement écrêté, avec report en partie au-delà du plafond. Ce
+  cas affecte paradoxalement les salariés en défaveur, car certains
+  systèmes de paie historiques gèrent mal les tranches du PASS.
+
+Les **grands groupes** — avec leurs SIRH complexes et leurs multiples
+entités juridiques — sont concernés lorsque les salariés ont été
+mutés entre filiales ou ont perçu des primes de groupe non
+correctement réparties. Les **PME sans DRH dédié** sont également à
+risque, notamment pour les entreprises ayant fait appel à un cabinet
+comptable externe aux pratiques parfois hétérogènes.
+
+## Conversion franc-euro : la faille de 2002
+
+Le passage à l'euro en janvier 2002 a donné lieu à des **conversions
+de bases salariales historiques** dans les systèmes d'information des
+caisses de retraite. Certaines carrières antérieures à 2002 affichent
+aujourd'hui des montants mal convertis, avec parfois un simple oubli
+de facteur dix ou une erreur de virgule décimale.
+
+Trois anomalies types sont régulièrement constatées :
+
+- Des **salaires reportés en francs** sans conversion, ce qui donne
+  des valeurs absurdement faibles après revalorisation ;
+- Des **erreurs de centimes** sur les salaires pivots des années de
+  transition 2001-2002 ;
+- Des **salaires double-convertis** (conversion appliquée deux fois),
+  donnant des valeurs artificiellement gonflées qui écartent ensuite
+  d'autres bonnes années du calcul du SAM.
+
+Pour les assurés ayant démarré leur carrière dans les années 1980 ou
+1990, il est donc crucial de **vérifier les salaires reportés
+d'avant 2002** avec les bulletins de paie ou les avis d'imposition
+d'origine.
+
+<Citation source="Rapport Cour des comptes, Contrôle de la Sécurité sociale, 2024">
+La conversion franc-euro des bases salariales historiques a été
+réalisée en grande partie de façon automatisée. Les contrôles a
+posteriori ont mis en évidence des anomalies résiduelles dans
+environ un dossier sur trente, avec un impact financier variable
+mais parfois significatif sur le Salaire Annuel Moyen.
+</Citation>
+
+## Plafonnement par le PASS : les écrêtements à vérifier
+
+Pour les salariés ayant dépassé le PASS sur plusieurs années, la
+vérification de l'**écrêtement correct** est essentielle. Chaque
+année, le PASS historique doit être consulté et comparé au salaire
+brut effectif. Le calcul suit la logique suivante :
+
+- Si salaire brut < PASS → salaire brut retenu entièrement ;
+- Si salaire brut > PASS → **PASS retenu** comme plafond.
+
+Les erreurs constatées sur ce mécanisme sont principalement de deux
+types :
+
+- **Écrêtement au-dessus du PASS** : le salaire au-dessus du plafond
+  a été comptabilisé, ce qui fausse le SAM à la baisse par rapport
+  à d'autres années équivalentes ;
+- **Écrêtement en-dessous du PASS** : le salaire a été plafonné alors
+  qu'il était légèrement inférieur au PASS, avec une perte de
+  quelques euros annuels.
+
+Pour les cadres ayant dépassé le PASS tout au long de leur carrière,
+un tableau de vérification **année par année** permet d'identifier
+rapidement les éventuels écarts.
+
+## Comment reconstituer ses salaires historiques
+
+La méthode d'audit du SAM se déroule en cinq étapes :
+
+1. **Récupération du relevé de carrière détaillé** sur
+   info-retraite.fr ; ce document affiche le salaire soumis à
+   cotisation reporté au régime général pour chaque année ;
+2. **Rassemblement des bulletins de paie** des années concernées, ou
+   à défaut des **avis d'imposition** correspondants (revenus
+   imposables année par année) ;
+3. **Comparaison ligne par ligne** entre le RIS et les justificatifs
+   personnels, avec calcul de l'écart éventuel ;
+4. **Application du coefficient de revalorisation** pour évaluer
+   l'impact sur le SAM final ;
+5. **Préparation du dossier de rectification** avec copies des
+   pièces justificatives et courrier argumenté à la caisse.
+
+En cas d'**employeur disparu** ou de bulletins perdus, la demande
+d'attestation auprès de l'URSSAF peut reconstituer une partie des
+revenus déclarés. Pour les salaires antérieurs à 1990, les archives
+numérisées sont souvent incomplètes et nécessitent parfois une
+recherche manuelle auprès de la caisse régionale.
+
+<EncadreReglementaire
+  label="Délai de prescription"
+  desc="La rectification d'une erreur sur les salaires reportés peut être demandée à tout âge, y compris après la liquidation de la retraite. Le délai de cinq ans de prescription s'applique à la révision du montant perçu, mais la correction de la base retenue peut intervenir indépendamment."
+  source="Code de la sécurité sociale, art. R.351-10"
+/>
+
+<CTASmartRetraite
+  titre="Auditez votre <em>SAM</em> en cinq minutes"
+  description="SmartRetraite reconstitue votre SAM selon la méthode CNAV et détecte les incohérences entre votre relevé, vos bulletins et vos avis d'imposition."
+/>
+
+<ArticlesLies
+  liens={[
+    { href: "/anomalies/trimestres-manquants", label: "Trimestres manquants : les années oubliées" },
+    { href: "/anomalies/periodes-chomage", label: "Chômage et retraite : récupérer les trimestres oubliés" },
+    { href: "/anomalies/points-agirc-arrco", label: "AGIRC-ARRCO : l'erreur silencieuse des cadres" },
+  ]}
+/>
+
+</ArticleShell>

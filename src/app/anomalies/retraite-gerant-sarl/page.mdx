@@ -1,0 +1,158 @@
+export const metadata = {
+  title: "Gérant de SARL : les erreurs de retraite selon majoritaire ou minoritaire",
+  description:
+    "Le statut social du gérant change selon sa part de capital. Une distinction mal appliquée génère des trimestres manquants entre SSI et régime général.",
+};
+
+<ArticleShell
+  rubrique="Anomalies · Impact élevé"
+  titreHtml="Gérant de SARL : les erreurs de retraite selon <em>majoritaire ou minoritaire</em>"
+  chapo="Le statut social du gérant de SARL dépend de sa part dans le capital social. Une bascule mal reconstituée entre le régime général et la SSI au fil d'une carrière peut coûter plusieurs années de droits à la retraite. Analyse d'une des anomalies les plus techniques et les plus coûteuses."
+  auteur="Claude-Henri Poitou"
+  datePublication="2026-04-22"
+  tempsLecture={8}
+  slug="retraite-gerant-sarl"
+  chiffres={[
+    { num: "50 %", label: "seuil de bascule majoritaire / minoritaire" },
+    { num: "SSI", label: "régime du gérant majoritaire" },
+    { num: "AGIRC-ARRCO", label: "régime du gérant minoritaire/égalitaire" },
+    { num: "3×", label: "plus d'anomalies chez les TNS", source: "Cour des comptes" },
+  ]}
+>
+
+## La règle fondamentale : un statut social défini par le capital
+
+Le statut social du gérant de SARL dépend exclusivement de sa part dans le
+capital, y compris celui détenu par son conjoint et ses enfants mineurs
+(collège). La règle est binaire :
+
+- **Gérant majoritaire** : plus de **50 %** du capital (avec son collège) →
+  statut **TNS** rattaché à la **Sécurité sociale des indépendants (SSI)**.
+- **Gérant minoritaire, égalitaire ou non associé** : moins de 50 % ou
+  exactement 50 % du capital → statut **assimilé salarié** rattaché au
+  **régime général** et à l'**AGIRC-ARRCO**.
+
+Cette dualité structurelle entraîne des régimes de retraite radicalement
+différents : points AGIRC-ARRCO pour l'assimilé salarié, cotisations au
+régime complémentaire RCI pour le TNS, calcul de la pension de base sur
+des assiettes différentes.
+
+<EncadreReglementaire
+  label="Collège du gérant"
+  desc="Pour apprécier la majorité, on additionne les parts du gérant, de son conjoint (marié ou pacsé), de ses enfants mineurs non émancipés et des co-gérants. Un gérant possédant 40 % du capital dont le conjoint détient 15 % sera considéré comme majoritaire (55 % au total)."
+  source="Code de la sécurité sociale, art. L.311-3"
+/>
+
+## Les transitions de statut : source principale d'anomalies
+
+La difficulté d'audit vient des **transitions** au cours de la vie de
+l'entreprise. Les événements déclencheurs sont nombreux :
+
+- **Cession partielle de parts** (entrée d'un nouvel associé, transmission
+  familiale, rachat d'actions salariées) ;
+- **Augmentation de capital** qui dilue la part du gérant ;
+- **Évolution de la composition familiale** (mariage, divorce, majorité
+  d'enfants précédemment comptés) ;
+- **Décès d'un co-gérant** dont les parts sont transmises.
+
+Chaque transition modifie mécaniquement le régime applicable. Or, la
+transmission de l'information entre l'URSSAF, le service social de la
+caisse gestionnaire et les régimes de retraite repose sur une **déclaration
+explicite** qui est souvent omise — notamment lorsque la cession de parts
+est enregistrée uniquement au niveau du greffe du tribunal de commerce.
+
+## Les deux anomalies typiques
+
+### Anomalie n°1 — Trimestres non reportés lors d'un passage majoritaire → minoritaire
+
+Un gérant initialement majoritaire cède une partie de ses parts et devient
+minoritaire. Il devrait désormais cotiser au régime général et à
+l'AGIRC-ARRCO. Mais, faute de déclaration explicite à l'URSSAF, il
+continue à être traité comme TNS pendant plusieurs mois voire plusieurs
+années. Résultat : des **périodes de rémunération en tant que dirigeant
+salarié ne sont pas reportées au régime général** et les points
+AGIRC-ARRCO correspondants ne sont pas acquis.
+
+### Anomalie n°2 — Double cotisation lors d'une transition mal documentée
+
+Dans l'autre sens (minoritaire → majoritaire suite à un rachat de parts),
+il arrive que l'ex-gérant minoritaire continue à cotiser au régime
+général pendant plusieurs mois après son passage TNS. Cette situation,
+théoriquement impossible, reste constatée sur une minorité de dossiers et
+nécessite une reconstitution pour éviter les pertes de droits.
+
+<Citation source="Rapport Cour des comptes, Contrôle de la sécurité sociale, 2023">
+Les parcours professionnels intégrant des passages multiples entre statut salarié et statut non-salarié constituent une source récurrente d'anomalies, en particulier lorsque les changements de statut n'ont pas été accompagnés d'une notification explicite aux caisses concernées.
+</Citation>
+
+## Les points de contrôle lors d'un audit
+
+Pour reconstituer le parcours d'un gérant de SARL, cinq documents sont
+indispensables :
+
+1. L'**historique Kbis** de la société (récupérable via Infogreffe) ;
+2. Les **procès-verbaux d'assemblée générale** ayant validé les cessions
+   de parts successives ;
+3. Les **statuts à jour** et l'historique des modifications statutaires ;
+4. Les **avis de cotisation URSSAF** année par année ;
+5. Les **bulletins de salaire** lorsque le gérant était assimilé salarié.
+
+Le croisement de ces pièces permet de dater précisément chaque transition
+et d'identifier les éventuelles périodes de cotisation erronée ou
+manquante.
+
+## Régime général + complémentaire : ne pas oublier l'IRCANTEC ou l'AGIRC-ARRCO
+
+Pour le gérant minoritaire assimilé salarié, la retraite se compose de :
+
+- Une **pension de base du régime général** calculée sur le salaire annuel
+  moyen des 25 meilleures années (plafonnées au PASS, soit 48 060 € en 2026) ;
+- Une **pension complémentaire AGIRC-ARRCO** en points, avec une valeur de
+  service de **1,4386 € en 2026**.
+
+La vérification des points AGIRC-ARRCO mérite une attention particulière
+car la **fusion AGIRC-ARRCO de 2019** a pu provoquer des erreurs de
+conversion pour les cadres dirigeants. Voir notre analyse dédiée sur
+[les points AGIRC-ARRCO post-fusion](/anomalies/points-agirc-arrco).
+
+## SSI + RCI : les spécificités du gérant majoritaire
+
+Pour le gérant majoritaire TNS, la retraite se compose de :
+
+- Une **pension de base SSI** alignée sur les règles du régime général ;
+- Une **pension complémentaire RCI** (Régime complémentaire des
+  indépendants) en points. Valeur du point 2025 : **1,335 €** (ou 1,20 €
+  pour les points RCO acquis entre 1979 et 1996).
+
+Les cotisations TNS sont assises sur la **rémunération soumise à
+cotisations sociales** qui intègre la part de dividendes supérieure à
+10 % du capital et des primes d'émission — une règle parfois mal
+appliquée qui peut justifier la régularisation.
+
+## Procédure de rectification
+
+Lorsqu'une anomalie est identifiée, la démarche combine deux canaux :
+
+1. **Courrier recommandé à la CARSAT** pour les périodes de régime général
+   et à la caisse régionale SSI pour les périodes TNS, avec justificatifs.
+2. **Saisine parallèle de la caisse AGIRC-ARRCO ou de la caisse RCI** pour
+   la partie complémentaire.
+
+Le délai de prescription de cinq ans après liquidation laisse une fenêtre
+confortable pour la rectification, y compris pour les dossiers déjà
+liquidés.
+
+<CTASmartRetraite
+  titre="Audit complet <em>gérant SARL</em>"
+  description="SmartRetraite reconstitue votre parcours gérant majoritaire / minoritaire, identifie les transitions mal reportées et produit un dossier de rectification complet."
+/>
+
+<ArticlesLies
+  liens={[
+    { href: "/anomalies/revenus-tns", label: "Retraite des indépendants : les revenus mal déclarés" },
+    { href: "/anomalies/points-agirc-arrco", label: "AGIRC-ARRCO : l'erreur silencieuse des cadres" },
+    { href: "/anomalies/retraite-dirigeant-sas", label: "Président de SAS : assimilé salarié mais régime particulier" },
+  ]}
+/>
+
+</ArticleShell>
