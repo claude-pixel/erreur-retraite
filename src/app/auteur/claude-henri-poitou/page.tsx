@@ -15,7 +15,7 @@ const personSchema = {
   jobTitle: "Consultant en protection sociale et retraite",
   description:
     "Expert en régimes sociaux et retraite des travailleurs non-salariés. Dix-huit ans d'expérience en protection sociale.",
-  url: "https://erreur-retraite.fr/auteur/claude-henri-poitou",
+  url: "https://www.erreur-retraite.fr/auteur/claude-henri-poitou",
   sameAs: [
     "https://competence-retraite.fr",
     "https://smartretraite.fr",

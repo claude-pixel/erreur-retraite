@@ -18,7 +18,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://erreur-retraite.fr"),
+  metadataBase: new URL("https://www.erreur-retraite.fr"),
   title: {
     default: "erreur-retraite.fr — L'information retraite enfin accessible",
     template: "%s — erreur-retraite.fr",

@@ -1,4 +1,4 @@
-const BASE_URL = "https://erreur-retraite.fr";
+const BASE_URL = "https://www.erreur-retraite.fr";
 
 export const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",

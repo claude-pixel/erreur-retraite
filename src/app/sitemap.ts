@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { articles } from "@/lib/articles";
 
-const BASE_URL = "https://erreur-retraite.fr";
+const BASE_URL = "https://www.erreur-retraite.fr";
 
 const STATIC_PAGES = [
   { path: "/", priority: 1.0, changeFrequency: "weekly" as const },
