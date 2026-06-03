@@ -219,6 +219,125 @@ export const articles: Article[] = [
     auteur: "la rédaction d'erreur-retraite.fr",
     num: "12",
   },
+  {
+    slug: "retraite-pluriactivite",
+    section: "anomalies",
+    rubrique: "Anomalies · Impact variable",
+    titre: "Pluriactivité : quand cotiser à deux régimes génère des erreurs",
+    titreHtml:
+      "Pluriactivité : quand cotiser à <em>deux régimes</em> génère des erreurs",
+    chapo:
+      "Salarié et indépendant la même année, cumul de deux activités non salariées, passage d'un statut à l'autre : la pluriactivité multiplie les régimes interlocuteurs et, avec eux, les risques de trimestres comptés deux fois, de revenus mal ventilés ou de droits perdus entre les caisses.",
+    motCle: "retraite pluriactivité",
+    volumeSEO: 320,
+    impact: "Variable, souvent sous-estimé",
+    tempsLecture: 8,
+    datePublication: "2026-05-26",
+    auteur: "Claude-Henri Poitou",
+    num: "13",
+  },
+  {
+    slug: "pension-reversion",
+    section: "dossiers",
+    rubrique: "Dossiers · Droits du conjoint",
+    titre: "Pension de réversion : conditions, calcul et pièges à éviter",
+    titreHtml:
+      "Pension de réversion : conditions, calcul et <em>pièges à éviter</em>",
+    chapo:
+      "Au décès d'un assuré, son conjoint survivant peut percevoir une partie de la retraite qu'il touchait ou aurait touchée. Mais les règles diffèrent radicalement d'un régime à l'autre : taux, condition de ressources, âge minimum, sort du divorce et du remariage. Décryptage complet d'un droit aussi essentiel que mal compris.",
+    motCle: "pension de réversion",
+    volumeSEO: 40000,
+    impact: "54 à 60 % de la pension du défunt",
+    tempsLecture: 12,
+    datePublication: "2026-05-28",
+    auteur: "la rédaction d'erreur-retraite.fr",
+    num: "14",
+  },
+  {
+    slug: "cumul-emploi-retraite",
+    section: "dossiers",
+    rubrique: "Dossiers · Fin de carrière",
+    titre: "Cumul emploi-retraite : plafonds, nouveaux droits et erreurs fréquentes",
+    titreHtml:
+      "Cumul emploi-retraite : plafonds, <em>nouveaux droits</em> et erreurs fréquentes",
+    chapo:
+      "Reprendre une activité tout en touchant sa pension est un droit ouvert à tous les retraités. Depuis le 1ᵉʳ septembre 2023, ce cumul peut même générer une seconde pension. Encore faut-il distinguer cumul intégral et cumul plafonné, et éviter les erreurs de liquidation qui bloquent le versement.",
+    motCle: "cumul emploi retraite",
+    volumeSEO: 27000,
+    impact: "Revenus complémentaires + seconde pension",
+    tempsLecture: 11,
+    datePublication: "2026-06-02",
+    auteur: "Claude-Henri Poitou",
+    num: "15",
+  },
+  {
+    slug: "retraite-progressive",
+    section: "dossiers",
+    rubrique: "Dossiers · Aménagement de fin de carrière",
+    titre: "Retraite progressive : travailler moins en touchant déjà une partie de sa pension",
+    titreHtml:
+      "Retraite progressive : travailler moins en touchant <em>déjà une partie</em> de sa pension",
+    chapo:
+      "Réduire son temps de travail et percevoir une fraction de sa retraite, sans liquider définitivement ses droits : la retraite progressive est l'un des dispositifs les plus avantageux — et les plus méconnus — de la fin de carrière. Depuis le 1ᵉʳ septembre 2023, elle est ouverte à presque tous les statuts, et l'employeur ne peut plus la refuser sans motif.",
+    motCle: "retraite progressive",
+    volumeSEO: 33000,
+    impact: "Transition de revenu maîtrisée",
+    tempsLecture: 10,
+    datePublication: "2026-06-03",
+    auteur: "la rédaction d'erreur-retraite.fr",
+    num: "16",
+  },
+  {
+    slug: "depart-anticipe-carriere-longue",
+    section: "dossiers",
+    rubrique: "Dossiers · Départ anticipé",
+    titre: "Carrière longue : partir avant 64 ans quand on a commencé à travailler jeune",
+    titreHtml:
+      "Carrière longue : partir avant 64 ans quand on a <em>commencé jeune</em>",
+    chapo:
+      "Ceux qui ont commencé à travailler à 16, 18, 20 ou 21 ans peuvent partir en retraite avant l'âge légal, à condition de réunir des trimestres précis en début de carrière. Or ce sont justement ces premiers trimestres — jobs d'été, apprentissage, contrats courts — qui sont le plus souvent mal reportés. Une seule ligne manquante suffit à faire reculer le départ de plusieurs années.",
+    motCle: "carrière longue départ anticipé",
+    volumeSEO: 22000,
+    impact: "Jusqu'à 6 ans de départ gagnés",
+    tempsLecture: 10,
+    datePublication: "2026-06-03",
+    auteur: "Claude-Henri Poitou",
+    num: "17",
+  },
+  {
+    slug: "retraite-femme-inegalites",
+    section: "dossiers",
+    rubrique: "Dossiers · Enquête",
+    titre: "Retraite des femmes : les inégalités cachées et les droits trop souvent oubliés",
+    titreHtml:
+      "Retraite des femmes : les inégalités cachées et les <em>droits oubliés</em>",
+    chapo:
+      "À carrière équivalente, les femmes perçoivent une pension de droit direct inférieure de près de 40 % à celle des hommes. Une partie de cet écart tient aux carrières et aux salaires ; une autre, évitable, vient de droits compensatoires mal appliqués : majorations pour enfants, trimestres de maternité, assurance vieillesse des parents au foyer.",
+    motCle: "retraite des femmes inégalités",
+    volumeSEO: 8000,
+    impact: "Jusqu'à 8 trimestres par enfant en jeu",
+    tempsLecture: 11,
+    datePublication: "2026-06-03",
+    auteur: "la rédaction d'erreur-retraite.fr",
+    num: "18",
+  },
+  {
+    slug: "retraite-tns-complete",
+    section: "dossiers",
+    rubrique: "Dossiers · Indépendants",
+    titre: "Retraite des indépendants : le guide complet des régimes SSI, CIPAV et CNAVPL",
+    titreHtml:
+      "Retraite des indépendants : le guide complet des régimes <em>SSI, CIPAV et CNAVPL</em>",
+    chapo:
+      "Artisans, commerçants, professions libérales, micro-entrepreneurs : les travailleurs non salariés relèvent de régimes éclatés, aux règles de cotisation et de validation distinctes. C'est aussi la population qui présente le taux d'anomalies de relevé le plus élevé. Panorama complet pour comprendre ses droits et repérer les erreurs.",
+    motCle: "retraite TNS indépendant guide",
+    volumeSEO: 14000,
+    impact: "100 à 400 €/mois d'écart fréquent",
+    tempsLecture: 12,
+    datePublication: "2026-06-03",
+    auteur: "Claude-Henri Poitou",
+    num: "19",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {

@@ -1,0 +1,136 @@
+export const metadata = {
+  title: "Pluriactivité : quand cotiser à deux régimes génère des erreurs",
+  description:
+    "Salarié et indépendant la même année, double activité, changement de statut : la pluriactivité multiplie les régimes et les risques de trimestres écrêtés, revenus mal ventilés et droits perdus entre les caisses.",
+};
+
+<ArticleShell
+  rubrique="Anomalies · Impact variable"
+  titreHtml="Pluriactivité : quand cotiser à <em>deux régimes</em> génère des erreurs"
+  chapo="Exercer une activité salariée et une activité indépendante la même année, cumuler deux statuts non salariés, ou passer de l'un à l'autre au fil d'une carrière : la pluriactivité est devenue banale. Mais chaque régime supplémentaire est un interlocuteur de plus — et un risque accru de trimestres écrêtés, de revenus mal ventilés et de droits qui se perdent dans les interstices entre caisses."
+  auteur="Claude-Henri Poitou"
+  datePublication="2026-05-26"
+  tempsLecture={8}
+  slug="retraite-pluriactivite"
+  section="anomalies"
+  chiffres={[
+    { num: "4", label: "trimestres maximum validables par an, tous régimes confondus", source: "CNAV" },
+    { num: "2017", label: "année d'entrée en vigueur de la LURA" },
+    { num: "42", label: "régimes de retraite en France" },
+    { num: "150 h", label: "de SMIC pour valider un trimestre", source: "Code de la sécurité sociale" },
+  ]}
+>
+
+## La pluriactivité, un terrain miné par construction
+
+Un assuré est en situation de pluriactivité dès lors qu'il relève, simultanément
+ou successivement, de plusieurs régimes de retraite : salarié le matin et
+auto-entrepreneur le soir, gérant cotisant à la SSI puis redevenu salarié,
+profession libérale exerçant aussi une activité commerciale. Avec quarante-deux
+régimes de base et complémentaires en France, chaque combinaison crée une
+frontière administrative — et c'est précisément sur ces frontières que se
+logent les anomalies.
+
+Le problème n'est pas théorique. La transmission d'informations entre régimes
+reste imparfaite, et aucun d'eux n'a une vision complète de la carrière de
+l'assuré. Chaque caisse calcule ce qu'elle connaît ; personne ne vérifie la
+cohérence de l'ensemble. C'est à l'assuré, et à lui seul, de constater les
+écarts.
+
+## Le plafond des quatre trimestres : l'écrêtement invisible
+
+La règle la plus contre-intuitive concerne les trimestres. Quel que soit le
+nombre d'activités exercées, **un assuré ne peut valider plus de quatre
+trimestres par année civile**, tous régimes confondus. Cotiser dans deux
+régimes la même année ne permet donc jamais de dépasser ce plafond.
+
+<EncadreReglementaire
+  label="1 trimestre = 150 h SMIC"
+  desc="Un trimestre se valide dès lors que le revenu d'activité atteint 150 fois le SMIC horaire brut. Mais le total reste plafonné à quatre trimestres par an, même si plusieurs activités dépassent chacune ce seuil."
+  source="Code de la sécurité sociale, art. R.351-9"
+/>
+
+L'anomalie survient lorsque l'écrêtement est mal réparti. Un pluriactif qui a
+largement validé ses quatre trimestres au régime général peut voir ses
+cotisations indépendantes ignorées pour le décompte des trimestres — ce qui est
+normal — mais aussi, par erreur, voir certains trimestres décomptés en double
+puis annulés de façon incohérente. Le relevé affiche alors moins de trimestres
+que la carrière réelle ne le justifie.
+
+## Des revenus mal ventilés entre régimes
+
+Le second point de friction touche le montant de la pension, et non plus le
+nombre de trimestres. Chaque régime calcule une pension sur les revenus *qu'il*
+a enregistrés. Si une partie des revenus d'une année a été déclarée au mauvais
+régime, ou si un changement de statut en cours d'année a brouillé la
+répartition, le revenu de référence est faussé dans l'un comme dans l'autre.
+
+Pour les indépendants devenus salariés, ou l'inverse, l'année de transition est
+la plus exposée : revenus partiels de part et d'autre, cotisations
+provisionnelles régularisées avec retard, et un risque réel qu'une fraction de
+revenu ne soit reportée nulle part.
+
+## La LURA : une simplification qui ne couvre pas tout
+
+Depuis 2017, la **Liquidation Unique des Régimes Alignés (LURA)** calcule en une
+seule fois la retraite de base des assurés ayant relevé du régime général, du
+régime des artisans et commerçants (ex-RSI, aujourd'hui SSI) et du régime
+agricole salarié. Pour ces régimes dits « alignés », les trimestres et les
+salaires sont additionnés et la pension est servie par une seule caisse.
+
+<Citation source="Caisse nationale d'assurance vieillesse, présentation de la LURA">
+La liquidation unique évite qu'un même assuré ne voie sa carrière fractionnée entre régimes alignés et bénéficie ainsi d'un calcul unifié de sa retraite de base.
+</Citation>
+
+Mais la LURA a une limite décisive : **elle ne concerne pas les professions
+libérales**. Un assuré ayant cotisé à la CIPAV ou à une autre section de la
+CNAVPL conserve un calcul séparé pour cette part. La coexistence d'une carrière
+« alignée » et d'une carrière libérale est l'une des configurations où les
+erreurs de report sont les plus fréquentes, car deux logiques de calcul
+totalement distinctes doivent cohabiter sans interface fiable.
+
+## Comment détecter l'anomalie sur son relevé
+
+La vérification suit la même méthode que pour toute anomalie de carrière, mais
+exige une attention particulière aux années de pluriactivité.
+
+1. **Récupérer le Relevé Individuel de Situation (RIS)** sur info-retraite.fr :
+   il agrège, en principe, l'ensemble des régimes.
+2. **Repérer les années de double activité** et vérifier que le total des
+   trimestres validés correspond bien à l'activité réelle, sans écrêtement
+   injustifié ni trimestre manquant.
+3. **Contrôler la ventilation des revenus** année par année : un revenu reporté
+   à zéro dans un régime alors qu'une activité y a été exercée est un signal
+   d'alerte.
+4. **Surveiller les années de transition** entre statuts, les plus susceptibles
+   de comporter un trou.
+
+<CTASmartRetraite
+  titre="Votre carrière mêle <em>plusieurs régimes</em> ?"
+  description="C'est précisément le profil où les anomalies sont les plus fréquentes et les plus difficiles à repérer à l'œil nu. SmartRetraite confronte les périodes de tous vos régimes et signale les trimestres écrêtés ou les revenus oubliés entre deux caisses."
+  bouton="Analyser ma carrière multi-régimes →"
+/>
+
+## Corriger : un courrier par régime concerné
+
+La correction d'une anomalie de pluriactivité suit la procédure habituelle, à
+ceci près qu'elle doit souvent être engagée **auprès de chaque régime
+séparément**. Un trimestre manquant relevant du régime général se corrige
+auprès de la CARSAT ; une erreur de revenu libéral, auprès de la CIPAV ou de la
+section CNAVPL compétente. Conserver les justificatifs — bulletins de salaire,
+avis d'imposition, attestations de cotisations indépendantes — est ici
+particulièrement déterminant, car aucun régime ne dispose de la vue d'ensemble.
+
+Plus la correction est engagée tôt, plus elle est simple : avant la liquidation,
+la rectification est possible à tout âge depuis la réforme de simplification des
+démarches de 2021.
+
+<ArticlesLies
+  liens={[
+    { href: "/anomalies/revenus-tns", label: "Retraite des indépendants : les revenus mal déclarés" },
+    { href: "/anomalies/retraite-cipav-erreur", label: "CIPAV : les anomalies spécifiques aux libéraux non réglementés" },
+    { href: "/anomalies/trimestres-manquants", label: "Trimestres manquants : ces années oubliées qui amputent la pension" },
+  ]}
+/>
+
+</ArticleShell>

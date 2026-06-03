@@ -1,4 +1,6 @@
+import { articles, formatDate } from "@/lib/articles";
 import { RubriqueLabel } from "@/components/editorial/RubriqueLabel";
+import { DossierCard } from "@/components/cards/DossierCard";
 
 export const metadata = {
   title: "Dossiers — articles de fond sur la retraite",
@@ -7,6 +9,7 @@ export const metadata = {
 };
 
 export default function DossiersPage() {
+  const dossiers = articles.filter((a) => a.section === "dossiers");
   return (
     <div className="container-ed py-14">
       <RubriqueLabel >Rubrique · Dossiers</RubriqueLabel>
@@ -18,17 +21,22 @@ export default function DossiersPage() {
       </h1>
       <p className="font-medium text-[1.2rem] text-ink-2 max-w-prose mb-12">
         Analyses approfondies, enquêtes documentées et décryptages des grandes
-        questions du système de retraite français. Les premiers dossiers seront
-        publiés prochainement.
+        questions du système de retraite français : réversion, cumul
+        emploi-retraite, réformes en cours et droits spécifiques par régime.
       </p>
 
-      <div className="border border-rule bg-bg-2 px-10 py-12 text-center">
-        <div className="rubrique-label mb-4">Prochainement</div>
-        <p className="text-ink-2">
-          La rubrique « Dossiers » sera alimentée dès le mois de mai 2026 avec
-          des articles longs sur la réforme en cours, la retraite des femmes,
-          la pension de réversion et le cumul emploi-retraite.
-        </p>
+      <div className="grid md:grid-cols-2 gap-x-12">
+        {dossiers.map((a) => (
+          <DossierCard
+            key={a.slug}
+            rubrique={a.rubrique}
+            titre={a.titre}
+            chapo={a.chapo}
+            href={`/dossiers/${a.slug}`}
+            date={formatDate(a.datePublication)}
+            tempsLecture={a.tempsLecture}
+          />
+        ))}
       </div>
     </div>
   );
