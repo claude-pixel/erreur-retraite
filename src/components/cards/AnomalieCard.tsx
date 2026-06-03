@@ -22,7 +22,7 @@ export type AnomalieCardProps = {
   slug: string;
 };
 
-export function AnomalieCard({ num, titre, desc, impact, href, tempsLecture, slug }: AnomalieCardProps) {
+export function AnomalieCard({ num, titre, desc, href, tempsLecture, slug }: AnomalieCardProps) {
   // Fait cycler les 8 thèmes de couleur au-delà du n° 8 (sinon tout retombe sur le thème 1).
   const n = parseInt(num, 10) || 1;
   const key = String(((n - 1) % 8) + 1);
@@ -49,11 +49,8 @@ export function AnomalieCard({ num, titre, desc, impact, href, tempsLecture, slu
           {titre}
         </h3>
         <p className="text-[0.88rem] text-ink-2 leading-[1.5] mb-4">{desc}</p>
-        <div className="pt-3.5 border-t border-rule flex justify-between items-center text-[0.78rem]">
-          <span className="text-warn font-bold bg-brick-light px-2.5 py-1 rounded-pill text-[0.72rem]">
-            {impact}
-          </span>
-          {tempsLecture ? <span className="text-muted">{tempsLecture} min</span> : null}
+        <div className="pt-3.5 border-t border-rule flex justify-center items-center text-[0.78rem]">
+          {tempsLecture ? <span className="text-muted">{tempsLecture} min de lecture</span> : null}
         </div>
       </div>
     </Link>
