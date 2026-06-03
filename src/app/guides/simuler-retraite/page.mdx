@@ -1,0 +1,105 @@
+export const metadata = {
+  title: "Comment simuler sa retraite : outils officiels, limites et pièges",
+  description:
+    "Simulateurs info-retraite.fr, M@rel, estimation indicative globale : ce qu'ils calculent vraiment, leurs limites, et pourquoi une simulation sur un relevé erroné donne un résultat faux.",
+};
+
+<ArticleShell
+  rubrique="Guides pratiques · Méthode"
+  titreHtml="Comment simuler sa retraite : outils officiels, <em>limites et pièges</em>"
+  chapo="Estimer le montant de sa future pension est devenu accessible en quelques clics grâce aux simulateurs officiels. Mais ces outils reposent tous sur une même donnée : le relevé de carrière. Si celui-ci comporte une erreur, la simulation la reproduit fidèlement. Comprendre ce que ces outils calculent — et ce qu'ils ne calculent pas — évite de prendre des décisions sur un chiffre faux."
+  auteur="la rédaction d'erreur-retraite.fr"
+  datePublication="2026-06-03"
+  tempsLecture={8}
+  slug="simuler-retraite"
+  section="guides"
+  chiffres={[
+    { num: "35 ans", label: "âge à partir duquel le relevé est envoyé automatiquement" },
+    { num: "tous les 5 ans", label: "rythme d'envoi du relevé de situation" },
+    { num: "55 ans", label: "âge d'envoi de l'estimation indicative globale" },
+    { num: "67 ans", label: "âge du taux plein automatique" },
+  ]}
+>
+
+## Les outils officiels, gratuits et fiables… sous conditions
+
+Le portail **info-retraite.fr**, commun à l'ensemble des régimes, met à
+disposition plusieurs services gratuits. Le plus complet est le **simulateur
+M@rel**, qui projette le montant de la pension à différents âges de départ en
+agrégeant les droits acquis dans tous les régimes de l'assuré. À partir de
+**55 ans**, une **estimation indicative globale (EIG)** est par ailleurs adressée
+automatiquement.
+
+<EncadreReglementaire
+  label="Un service public, gratuit"
+  desc="Toute simulation officielle passe par info-retraite.fr, gratuitement et via FranceConnect. Les sites payants qui imitent ce service ne donnent pas accès à davantage de données."
+  source="Groupement d'intérêt public Union Retraite"
+/>
+
+Le **relevé de situation** lui-même est envoyé automatiquement à partir de
+**35 ans**, puis **tous les cinq ans**. Il constitue la matière première de
+toute simulation.
+
+## Ce que ces outils calculent vraiment
+
+Un simulateur officiel applique les règles de calcul (durée d'assurance, salaire
+de référence, décote ou surcote, valeurs de point) **aux données figurant dans
+votre relevé**. Pour les années futures, il retient des **hypothèses** : maintien
+du revenu actuel, poursuite de l'activité jusqu'à l'âge choisi, revalorisations
+conventionnelles.
+
+Autrement dit, la simulation est une projection mécanique d'un état de carrière
+*déclaré*. Elle est aussi juste — ou aussi fausse — que les données sur
+lesquelles elle s'appuie.
+
+## La limite décisive : la simulation hérite des erreurs du relevé
+
+C'est le point que la plupart des assurés ignorent. **Un simulateur ne vérifie
+pas votre relevé : il le tient pour exact.** Si un trimestre de service militaire
+manque, si une période de chômage a été tronquée, si un salaire a été
+sous-reporté, la simulation intègre cette erreur sans jamais la signaler. Le
+montant affiché paraît crédible — et il est pourtant minoré.
+
+C'est une différence de nature : un simulateur **projette**, il ne **contrôle**
+pas. Or, selon la Cour des comptes, une pension sur sept comporte au moins une
+anomalie. Simuler sa retraite sur un relevé non vérifié revient donc, dans une
+proportion importante de cas, à planifier son avenir sur un chiffre erroné.
+
+<CTASmartRetraite
+  titre="Une simulation juste commence par un relevé <em>vérifié</em>"
+  description="Les simulateurs officiels projettent le montant à partir de vos données déclarées, sans en contrôler l'exactitude. SmartRetraite fait l'inverse : il analyse votre relevé et détecte les anomalies que les simulateurs reproduisent en silence. La base d'une estimation fiable."
+  bouton="Vérifier mon relevé →"
+/>
+
+## Les autres pièges d'une simulation
+
+Au-delà des erreurs de relevé, plusieurs facteurs faussent l'interprétation
+d'une simulation :
+
+1. **Les hypothèses de carrière.** Un changement de revenu, une période
+   d'inactivité ou un départ anticipé modifient sensiblement le résultat.
+2. **La confusion brut / net.** Les montants affichés sont en général **bruts** ;
+   les prélèvements sociaux et l'impôt réduisent la pension nette perçue.
+3. **L'oubli de la complémentaire.** Une estimation partielle, limitée au régime
+   de base, peut ignorer une part majeure de la pension d'un cadre.
+4. **Les dispositifs non intégrés.** Majorations pour enfants, carrière longue,
+   retraite progressive ne sont pas toujours correctement pris en compte par les
+   simulations rapides.
+
+## La bonne séquence
+
+L'ordre logique est clair : **d'abord vérifier et corriger son relevé, ensuite
+simuler**. Une simulation réalisée sur des données assainies devient un véritable
+outil d'aide à la décision — pour choisir un âge de départ, mesurer l'intérêt
+d'un rachat de trimestres ou d'une retraite progressive. Réalisée sur un relevé
+erroné, elle n'est qu'une fausse certitude.
+
+<ArticlesLies
+  liens={[
+    { href: "/guides/lire-son-ris", label: "Comment lire et vérifier son relevé de carrière (RIS)" },
+    { href: "/guides/corriger-erreur-releve-carriere", label: "Comment corriger une erreur sur son relevé de carrière" },
+    { href: "/outils/simulateur-decote", label: "Simulateur de décote : mesurez l'impact d'un départ anticipé" },
+  ]}
+/>
+
+</ArticleShell>

@@ -9,16 +9,34 @@ export const metadata = {
 
 const guides = [
   {
-    href: "/guides/age-depart-retraite-2026",
-    titre: "Âge de départ en retraite 2026",
-    desc: "Tables complètes par année de naissance : régime général, fonctionnaires sédentaires et actifs, trimestres requis.",
-    tag: "Référence",
+    href: "/guides/corriger-erreur-releve-carriere",
+    titre: "Corriger une erreur sur son relevé de carrière",
+    desc: "Procédure complète : justificatifs, courrier à la bonne caisse, délais d'instruction, recours CRA et tribunal, avant comme après la liquidation.",
+    tag: "Démarches",
   },
   {
     href: "/guides/lire-son-ris",
     titre: "Comment lire et vérifier son relevé de carrière (RIS)",
     desc: "Guide pas-à-pas en 6 étapes : téléchargement sur info-retraite.fr, repérage des anomalies, procédure de rectification.",
     tag: "Méthode",
+  },
+  {
+    href: "/guides/simuler-retraite",
+    titre: "Comment simuler sa retraite : outils, limites et pièges",
+    desc: "Simulateurs officiels, estimation indicative globale : ce qu'ils calculent, pourquoi une simulation sur un relevé erroné donne un résultat faux.",
+    tag: "Méthode",
+  },
+  {
+    href: "/guides/checklist-depart",
+    titre: "Checklist avant de partir à la retraite",
+    desc: "De 12 mois avant le départ au dépôt du dossier : relevé, trimestres, majorations, date optimale, réversion. Tout vérifier avant de signer.",
+    tag: "Checklist",
+  },
+  {
+    href: "/guides/age-depart-retraite-2026",
+    titre: "Âge de départ en retraite 2026",
+    desc: "Tables complètes par année de naissance : régime général, fonctionnaires sédentaires et actifs, trimestres requis.",
+    tag: "Référence",
   },
   {
     href: "/guides/modele-lettre-caisse",
@@ -29,10 +47,7 @@ const guides = [
 ];
 
 const prochainement = [
-  "Simuler sa retraite : outils officiels, limites, pièges",
   "Carrière mixte salarié/TNS : éviter les trous entre régimes",
-  "Carrière longue : conditions 2026 et erreurs fréquentes",
-  "Checklist de départ : 25 points à vérifier",
   "Délais de correction par caisse et par type d'anomalie",
 ];
 
@@ -78,8 +93,8 @@ export default function GuidesPage() {
       <div className="bg-bg-2 rounded-2xl p-7">
         <div className="rubrique-label mb-4">Prochainement</div>
         <p className="text-[0.98rem] text-ink-2 mb-4 leading-[1.55]">
-          Cinq guides supplémentaires sont en cours de rédaction et seront
-          publiés au cours des prochaines semaines :
+          D'autres guides sont en cours de rédaction et seront publiés au cours
+          des prochaines semaines :
         </p>
         <ul className="list-none p-0 m-0 grid md:grid-cols-2 gap-2 text-[0.92rem] text-ink-2">
           {prochainement.map((p) => (
