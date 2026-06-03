@@ -23,7 +23,9 @@ export type AnomalieCardProps = {
 };
 
 export function AnomalieCard({ num, titre, desc, impact, href, tempsLecture, slug }: AnomalieCardProps) {
-  const key = String(parseInt(num, 10));
+  // Fait cycler les 8 thèmes de couleur au-delà du n° 8 (sinon tout retombe sur le thème 1).
+  const n = parseInt(num, 10) || 1;
+  const key = String(((n - 1) % 8) + 1);
   const theme = THEMES[key] ?? THEMES["1"];
   return (
     <Link

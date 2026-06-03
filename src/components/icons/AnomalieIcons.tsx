@@ -138,6 +138,131 @@ export function SalaryChartIcon(props: IconProps) {
   );
 }
 
+// 9. Gérant de SARL — Immeuble / entreprise
+export function BuildingIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <rect x="11" y="6" width="20" height="36" rx="2" stroke="currentColor" />
+      <rect x="31" y="18" width="9" height="24" rx="1.5" stroke="currentColor" />
+      <rect x="16" y="12" width="4" height="4" rx="0.5" fill="currentColor" opacity="0.25" />
+      <rect x="22" y="12" width="4" height="4" rx="0.5" fill="currentColor" opacity="0.25" />
+      <rect x="16" y="20" width="4" height="4" rx="0.5" fill="currentColor" opacity="0.25" />
+      <rect x="22" y="20" width="4" height="4" rx="0.5" fill="currentColor" opacity="0.25" />
+      <rect x="34" y="24" width="3.5" height="3.5" rx="0.5" fill="currentColor" opacity="0.25" />
+      <rect x="18" y="34" width="6" height="8" rx="1" stroke="currentColor" />
+    </svg>
+  );
+}
+
+// 10. Président de SAS — Fronton à colonnes (institution)
+export function ColumnsIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path d="M6 18 L24 8 L42 18" stroke="currentColor" />
+      <path d="M8 18 H40" stroke="currentColor" />
+      <path d="M11 18 V36 M19 18 V36 M29 18 V36 M37 18 V36" stroke="currentColor" />
+      <path d="M6 40 H42" stroke="currentColor" strokeWidth="2" />
+    </svg>
+  );
+}
+
+// 11. CIPAV — Plume (profession libérale)
+export function FeatherIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path d="M38 9 C23 11 14 21 12 35 C24 33 33 24 39 10 Z" stroke="currentColor" />
+      <path d="M30 16 C23 20 17 27 13 34" stroke="currentColor" />
+      <path d="M9 41 L14 33" stroke="currentColor" />
+    </svg>
+  );
+}
+
+// 12. Congé maternité — Cœur
+export function HeartIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path
+        d="M24 39 C9 29 7 18 13.5 14 C18 11.2 22 13.5 24 17.5 C26 13.5 30 11.2 34.5 14 C41 18 39 29 24 39 Z"
+        stroke="currentColor"
+      />
+    </svg>
+  );
+}
+
+// 13. Pluriactivité — Flèches d'échange
+export function SwitchIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path d="M9 18 H37" stroke="currentColor" />
+      <path d="M31 12 L37 18 L31 24" stroke="currentColor" />
+      <path d="M39 30 H11" stroke="currentColor" />
+      <path d="M17 24 L11 30 L17 36" stroke="currentColor" />
+    </svg>
+  );
+}
+
+// 14. Pension de réversion — Couple
+export function CoupleIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <circle cx="17" cy="15" r="5" stroke="currentColor" />
+      <circle cx="31" cy="15" r="5" stroke="currentColor" />
+      <path d="M7 41 C7 31 11 26 17 26 C20 26 22.5 27.3 24 29.5" stroke="currentColor" />
+      <path d="M24 29.5 C25.5 27.3 28 26 31 26 C37 26 41 31 41 41" stroke="currentColor" />
+    </svg>
+  );
+}
+
+// 15. Cumul emploi-retraite — Convergence de deux flux
+export function MergeIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path d="M8 12 C20 12 22 24 33 24" stroke="currentColor" />
+      <path d="M8 36 C20 36 22 24 33 24" stroke="currentColor" />
+      <path d="M28 18 L34 24 L28 30" stroke="currentColor" />
+      <path d="M34 24 H40" stroke="currentColor" />
+    </svg>
+  );
+}
+
+// 16. Retraite progressive — Sablier
+export function HourglassIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path d="M14 8 H34 M14 40 H34" stroke="currentColor" strokeWidth="2" />
+      <path d="M17 8 V12 C17 18 24 22 24 24 C24 26 31 30 31 36 V40" stroke="currentColor" />
+      <path d="M31 8 V12 C31 18 24 22 24 24 C24 26 17 30 17 36 V40" stroke="currentColor" />
+      <path d="M20 13 H28" stroke="currentColor" opacity="0.5" />
+      <path d="M20 37 H28" stroke="currentColor" />
+    </svg>
+  );
+}
+
+// 17. Carrière longue — Avance rapide (double chevron)
+export function FastForwardIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <circle cx="24" cy="24" r="18" stroke="currentColor" />
+      <path d="M16 16 L25 24 L16 32" stroke="currentColor" strokeWidth="2" />
+      <path d="M25 16 L34 24 L25 32" stroke="currentColor" strokeWidth="2" />
+    </svg>
+  );
+}
+
+// 18. Retraite des femmes — Balance (égalité)
+export function ScalesIcon(props: IconProps) {
+  return (
+    <svg {...svgBase(props)}>
+      <path d="M24 9 V41" stroke="currentColor" />
+      <path d="M14 41 H34" stroke="currentColor" strokeWidth="2" />
+      <circle cx="24" cy="11" r="2" fill="currentColor" />
+      <path d="M10 14 H38" stroke="currentColor" />
+      <path d="M10 14 L5 25 H15 L10 14 Z" stroke="currentColor" />
+      <path d="M38 14 L33 25 H43 L38 14 Z" stroke="currentColor" />
+    </svg>
+  );
+}
+
 // Icon map by article slug
 export const ANOMALIE_ICON_MAP: Record<string, (p: IconProps) => React.ReactElement> = {
   "trimestres-manquants": CalendarMissingIcon,
@@ -148,6 +273,17 @@ export const ANOMALIE_ICON_MAP: Record<string, (p: IconProps) => React.ReactElem
   "rachat-trimestres": CoinsIcon,
   "periodes-chomage": ClockIcon,
   "salaires-sam": SalaryChartIcon,
+  "retraite-gerant-sarl": BuildingIcon,
+  "retraite-dirigeant-sas": ColumnsIcon,
+  "retraite-cipav-erreur": FeatherIcon,
+  "conge-maternite-retraite": HeartIcon,
+  "retraite-pluriactivite": SwitchIcon,
+  "pension-reversion": CoupleIcon,
+  "cumul-emploi-retraite": MergeIcon,
+  "retraite-progressive": HourglassIcon,
+  "depart-anticipe-carriere-longue": FastForwardIcon,
+  "retraite-femme-inegalites": ScalesIcon,
+  "retraite-tns-complete": BriefcaseIcon,
 };
 
 export function AnomalieIcon({
