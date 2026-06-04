@@ -389,6 +389,23 @@ export const articles: Article[] = [
     auteur: "Claude-Henri Poitou",
     num: "22",
   },
+  {
+    slug: "retraite-artisan-commercant",
+    section: "dossiers",
+    rubrique: "Dossiers · Indépendants",
+    titre: "Retraite des artisans et commerçants : base alignée, complémentaire RCI et héritage du RSI",
+    titreHtml:
+      "Retraite des artisans et commerçants : base alignée, <em>complémentaire RCI</em> et héritage du RSI",
+    chapo:
+      "Depuis l'intégration au régime général en 2020, la retraite de base des artisans et commerçants suit les règles des salariés. Mais leur complémentaire reste un régime à part, le RCI, né d'une fusion en 2013 et héritier des anomalies de gestion du défunt RSI. Deux étages, deux logiques, et un terrain particulièrement propice aux erreurs de relevé.",
+    motCle: "retraite artisan commerçant RSI RCI",
+    volumeSEO: 1100,
+    impact: "100 à 400 €/mois d'écart fréquent",
+    tempsLecture: 10,
+    datePublication: "2026-06-04",
+    auteur: "Claude-Henri Poitou",
+    num: "23",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
