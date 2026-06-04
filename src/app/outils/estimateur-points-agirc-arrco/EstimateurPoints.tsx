@@ -52,9 +52,9 @@ export function EstimateurPoints() {
           <strong className="font-bold">Méthode de calcul</strong> — La pension
           complémentaire annuelle brute égale le total de points multiplié par
           la valeur de service du point, fixée à{" "}
-          <strong>{fmt(VALEUR_SERVICE)} €</strong> en 2026. Estimation hors
-          coefficient de solidarité (malus temporaire de 10 % les trois
-          premières années si vous partez dès le taux plein).
+          <strong>{fmt(VALEUR_SERVICE)} €</strong> en 2026. Le coefficient de
+          solidarité (ancien malus de 10 %) a été supprimé : plus aucune
+          minoration temporaire ne s'applique.
         </div>
       </section>
 

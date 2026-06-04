@@ -74,8 +74,8 @@ const faqs: QA[] = [
   },
   {
     cat: "Régimes complémentaires",
-    q: "Qu'est-ce que le coefficient de solidarité AGIRC-ARRCO ?",
-    a: "Une minoration temporaire de 10 % appliquée pendant 3 ans sur la pension complémentaire des assurés qui liquident au taux plein à 62 ans. Elle est neutralisée par un décalage de départ d'un an minimum, ou par une majoration d'au moins 3 trimestres (enfants, handicap).",
+    q: "Le coefficient de solidarité (malus) AGIRC-ARRCO existe-t-il encore ?",
+    a: "Non. Ce malus appliquait une minoration temporaire de 10 % pendant 3 ans à ceux qui liquidaient dès le taux plein. Il a été supprimé : plus aucun malus pour les retraites liquidées depuis le 1ᵉʳ décembre 2023, et suppression pour tous les retraités depuis le 1ᵉʳ avril 2024.",
   },
   {
     cat: "International",

@@ -13,7 +13,7 @@ const termes: { terme: string; def: string }[] = [
   },
   {
     terme: "Coefficient de solidarité",
-    def: "Décote temporaire de -10 % appliquée pendant trois ans à la pension complémentaire AGIRC-ARRCO pour les assurés liquidant au taux plein à 62 ans.",
+    def: "Ancien malus AGIRC-ARRCO : minoration temporaire de -10 % pendant trois ans pour les assurés liquidant dès le taux plein. Supprimé depuis le 1ᵉʳ décembre 2023 (nouvelles liquidations) et le 1ᵉʳ avril 2024 (tous les retraités).",
   },
   {
     terme: "CIPAV",
