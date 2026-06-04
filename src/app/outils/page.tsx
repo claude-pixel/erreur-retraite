@@ -4,12 +4,13 @@ import {
   PercentDownIcon,
   CoinsEuroIcon,
   MissingYearIcon,
+  PointsChartIcon,
 } from "@/components/icons/ToolIcons";
 
 export const metadata = {
-  title: "Simulateurs gratuits — décote, rachat de trimestres, année manquante",
+  title: "Simulateurs retraite gratuits — décote, rachat, année manquante, points AGIRC-ARRCO",
   description:
-    "Trois calculateurs interactifs gratuits, sans inscription, pour évaluer en quelques minutes l'impact de vos trimestres manquants et la rentabilité d'un rachat.",
+    "Calculateurs interactifs gratuits, sans inscription, pour évaluer l'impact de vos trimestres manquants, la rentabilité d'un rachat et la valeur de vos points AGIRC-ARRCO.",
 };
 
 const tools = [
@@ -46,6 +47,17 @@ const tools = [
     inputs: "pension estimée · durée de retraite",
     duration: "≈ 30 sec",
   },
+  {
+    href: "/outils/estimateur-points-agirc-arrco",
+    bg: "bg-cobalt",
+    color: "text-white",
+    Icon: PointsChartIcon,
+    title: "Valeur de vos points AGIRC-ARRCO",
+    desc:
+      "Convertissez vos points complémentaires en pension mensuelle, et mesurez ce que des points manquants sur votre relevé vous coûteraient.",
+    inputs: "total de points · points manquants",
+    duration: "≈ 1 min",
+  },
 ];
 
 export default function OutilsPage() {
@@ -56,16 +68,16 @@ export default function OutilsPage() {
         className="font-bold text-ink mt-5 mb-6"
         style={{ fontSize: "clamp(2.2rem, 4.5vw, 3rem)", lineHeight: 1.1 }}
       >
-        Trois <em>simulateurs</em>, trois minutes, aucune inscription
+        Quatre <em>simulateurs</em>, sans inscription
       </h1>
       <p className="font-medium text-[1.15rem] text-ink-2 max-w-[720px] mb-12 leading-[1.55]">
         Des calculateurs simples et gratuits pour répondre à une question
         concrète tout de suite : suis-je touché par la décote ? un rachat
-        est-il rentable dans ma situation ? combien vaut une année manquante
-        sur mon relevé ?
+        est-il rentable ? combien vaut une année manquante — ou mes points
+        AGIRC-ARRCO — sur mon relevé ?
       </p>
 
-      <div className="grid md:grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
         {tools.map((t) => (
           <Link
             key={t.href}

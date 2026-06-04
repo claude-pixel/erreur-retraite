@@ -19,6 +19,7 @@ const STATIC_PAGES = [
   { path: "/outils/simulateur-decote", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/outils/simulateur-rachat", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/outils/combien-me-coute-une-annee-manquante", priority: 0.85, changeFrequency: "monthly" as const },
+  { path: "/outils/estimateur-points-agirc-arrco", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/chiffres-cles-2026", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "/faq", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/lexique", priority: 0.7, changeFrequency: "monthly" as const },

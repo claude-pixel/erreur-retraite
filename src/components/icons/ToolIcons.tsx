@@ -41,6 +41,20 @@ export function CoinsEuroIcon(props: IconProps) {
   );
 }
 
+// Points AGIRC-ARRCO (courbe de points)
+export function PointsChartIcon(props: IconProps) {
+  return (
+    <svg {...baseProps(props)}>
+      <path d="M7 6 V33 H34" stroke="currentColor" />
+      <path d="M11 28 L18 22 L24 25 L32 13" stroke="currentColor" />
+      <circle cx="11" cy="28" r="2.3" fill="currentColor" />
+      <circle cx="18" cy="22" r="2.3" fill="currentColor" />
+      <circle cx="24" cy="25" r="2.3" fill="currentColor" />
+      <circle cx="32" cy="13" r="2.3" fill="currentColor" />
+    </svg>
+  );
+}
+
 // Année manquante (calendrier avec X)
 export function MissingYearIcon(props: IconProps) {
   return (
