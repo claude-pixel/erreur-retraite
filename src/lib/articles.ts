@@ -406,6 +406,23 @@ export const articles: Article[] = [
     auteur: "Claude-Henri Poitou",
     num: "23",
   },
+  {
+    slug: "retraite-profession-liberale",
+    section: "dossiers",
+    rubrique: "Dossiers · Professions libérales",
+    titre: "Retraite des professions libérales et CIPAV : régime, réforme 2018 et vigilance",
+    titreHtml:
+      "Retraite des professions libérales et CIPAV : régime, <em>réforme 2018</em> et vigilance",
+    chapo:
+      "Base CNAVPL commune, complémentaire CIPAV pour une vingtaine de professions seulement depuis la réforme de 2018, passage à une cotisation proportionnelle en 2023 : la retraite des libéraux non réglementés a profondément changé en quelques années. Comprendre qui relève encore de la CIPAV — et pourquoi tant de relevés sont devenus illisibles.",
+    motCle: "retraite CIPAV profession libérale",
+    volumeSEO: 1400,
+    impact: "Périmètre et règles bouleversés",
+    tempsLecture: 10,
+    datePublication: "2026-06-04",
+    auteur: "Claude-Henri Poitou",
+    num: "24",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
