@@ -33,6 +33,12 @@ const guides = [
     tag: "Checklist",
   },
   {
+    href: "/guides/verifier-points-agirc-arrco",
+    titre: "Vérifier et recalculer ses points AGIRC-ARRCO",
+    desc: "Lire son relevé complémentaire, recalculer sa pension (point × 1,4386 €) et repérer les points manquants ou mal reportés depuis la fusion de 2019.",
+    tag: "Méthode",
+  },
+  {
     href: "/guides/age-depart-retraite-2026",
     titre: "Âge de départ en retraite 2026",
     desc: "Tables complètes par année de naissance : régime général, fonctionnaires sédentaires et actifs, trimestres requis.",

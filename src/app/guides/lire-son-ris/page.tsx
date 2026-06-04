@@ -2,9 +2,9 @@ import Link from "next/link";
 import { RubriqueLabel } from "@/components/editorial/RubriqueLabel";
 
 export const metadata = {
-  title: "Comment lire et vérifier son relevé de carrière (RIS)",
+  title: "Lire son relevé de carrière (RIS) : le guide pour repérer les erreurs",
   description:
-    "Guide pas-à-pas pour lire son Relevé Individuel de Situation sur info-retraite.fr, identifier les lignes manquantes ou erronées et engager la rectification.",
+    "Téléchargez votre relevé sur info-retraite.fr et vérifiez-le ligne par ligne : notre guide en 6 étapes pour repérer les trimestres et salaires manquants — et les faire corriger.",
 };
 
 const etapes = [

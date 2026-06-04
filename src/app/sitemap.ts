@@ -14,6 +14,7 @@ const STATIC_PAGES = [
   { path: "/guides/corriger-erreur-releve-carriere", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/guides/simuler-retraite", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/guides/checklist-depart", priority: 0.85, changeFrequency: "monthly" as const },
+  { path: "/guides/verifier-points-agirc-arrco", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/outils", priority: 0.9, changeFrequency: "monthly" as const },
   { path: "/outils/simulateur-decote", priority: 0.85, changeFrequency: "monthly" as const },
   { path: "/outils/simulateur-rachat", priority: 0.85, changeFrequency: "monthly" as const },

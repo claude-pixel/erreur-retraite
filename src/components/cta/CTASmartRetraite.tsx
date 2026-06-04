@@ -1,13 +1,17 @@
 export function CTASmartRetraite({
   titre = "Diagnostiquez votre relevé en <em>cinq minutes</em>",
   description = "Notre service partenaire SmartRetraite analyse votre relevé de carrière et détecte automatiquement les anomalies qui grèvent votre pension.",
-  bouton = "Lancer mon diagnostic →",
+  bouton = "Lancer mon diagnostic gratuit →",
   href = "https://smartretraite.fr/analyse",
+  decouvrir = true,
+  decouvrirHref = "https://smartretraite.fr",
 }: {
   titre?: string;
   description?: string;
   bouton?: string;
   href?: string;
+  decouvrir?: boolean;
+  decouvrirHref?: string;
 }) {
   return (
     <section className="my-12">
@@ -36,6 +40,18 @@ export function CTASmartRetraite({
         <div className="text-[0.78rem] text-muted mt-4 relative">
           Sans inscription · Résultat en 5 minutes · Conforme RGPD
         </div>
+        {decouvrir ? (
+          <div className="mt-5 pt-5 border-t border-rule-2 relative">
+            <a
+              href={decouvrirHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[0.85rem] text-ink-2 font-semibold underline decoration-rule underline-offset-4 hover:text-emerald hover:decoration-emerald transition-colors"
+            >
+              Qu'est-ce que SmartRetraite ? Découvrir le service →
+            </a>
+          </div>
+        ) : null}
       </div>
     </section>
   );

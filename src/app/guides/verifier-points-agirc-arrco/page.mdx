@@ -1,0 +1,102 @@
+export const metadata = {
+  title: "Vérifier et recalculer ses points AGIRC-ARRCO : la méthode",
+  description:
+    "Combien valent vos points AGIRC-ARRCO ? Méthode pas-à-pas pour lire votre relevé complémentaire, recalculer votre pension (point × 1,4386 €) et repérer les points manquants ou mal reportés.",
+};
+
+<ArticleShell
+  rubrique="Guides pratiques · Méthode"
+  titreHtml="Comment vérifier et recalculer ses <em>points AGIRC-ARRCO</em>"
+  chapo="La retraite complémentaire des salariés du privé fonctionne par points : leur total, multiplié par la valeur de service du point, détermine une part décisive de la pension — jusqu'à 40 % pour un cadre. Encore faut-il que tous les points aient été correctement reportés. Voici comment lire votre relevé complémentaire, recalculer votre pension et repérer les anomalies."
+  auteur="la rédaction d'erreur-retraite.fr"
+  datePublication="2026-06-04"
+  tempsLecture={8}
+  slug="verifier-points-agirc-arrco"
+  section="guides"
+  chiffres={[
+    { num: "1,4386 €", label: "valeur de service du point en 2026", source: "AGIRC-ARRCO" },
+    { num: "≈ 20 €", label: "valeur d'achat du point (salaire de référence)" },
+    { num: "40 %", label: "part de la complémentaire dans la pension d'un cadre" },
+    { num: "2", label: "tranches de cotisation depuis la fusion de 2019" },
+  ]}
+>
+
+## Le principe : des points, deux valeurs
+
+Toute la mécanique AGIRC-ARRCO repose sur **deux valeurs distinctes** du point,
+qu'il ne faut pas confondre :
+
+- La **valeur d'achat** (ou salaire de référence), proche de **20 €** : c'est ce
+  que « coûte » un point. Chaque année, les cotisations versées sont divisées par
+  cette valeur pour déterminer le nombre de points acquis.
+- La **valeur de service**, fixée à **1,4386 €** en 2026 : c'est ce que
+  « rapporte » un point au moment de la retraite.
+
+Autrement dit : *cotisations de l'année ÷ valeur d'achat = points acquis*, et à
+la liquidation, *total des points × valeur de service = pension annuelle brute*.
+
+<EncadreReglementaire
+  label="1 point = 1,4386 € par an"
+  desc="Un assuré totalisant 5 000 points AGIRC-ARRCO percevra environ 5 000 × 1,4386 € = 7 193 € de complémentaire brute par an, soit près de 600 € par mois — avant application éventuelle du coefficient de solidarité."
+  source="Valeur de service du point AGIRC-ARRCO 2026"
+/>
+
+## Étape 1 — Retrouver son total de points
+
+Le nombre de points acquis figure sur le **relevé de carrière** (info-retraite.fr)
+et dans l'**espace personnel AGIRC-ARRCO**. On y trouve à la fois le cumul total
+et le détail année par année. C'est ce détail annuel qui permet de repérer les
+anomalies : une année travaillée à plein temps doit logiquement apporter un
+nombre de points cohérent avec le salaire.
+
+## Étape 2 — Recalculer sa pension complémentaire
+
+Le calcul d'estimation est à la portée de chacun :
+
+1. Relever le **cumul total de points**.
+2. Le multiplier par la **valeur de service** (1,4386 € en 2026).
+3. Diviser par douze pour obtenir le **montant mensuel brut**.
+
+Ce montant théorique sert de point de comparaison. S'il s'écarte sensiblement de
+l'estimation fournie par les régimes, c'est qu'une anomalie mérite investigation.
+
+## Étape 3 — Repérer les points manquants
+
+Plusieurs situations conduisent à un total de points minoré :
+
+- **Salaire sous-déclaré** par un employeur : moins de cotisations, donc moins de
+  points.
+- **Années manquantes** : périodes d'emploi absentes du relevé complémentaire.
+- **Conversion de 2019 mal reprise** : lors de la fusion AGIRC-ARRCO, des points
+  d'anciens cadres ont parfois été incomplètement convertis.
+- **Mauvaise ventilation tranche 1 / tranche 2** pour les salaires élevés, qui
+  fausse le nombre de points.
+- **Périodes de chômage ou de maladie** non créditées, alors qu'elles ouvrent
+  droit à des points dans certaines limites.
+
+<CTASmartRetraite
+  titre="Combien de points <em>manquent</em> sur votre relevé ?"
+  description="Recalculer ses points à la main donne un ordre de grandeur ; repérer précisément ceux qui manquent demande de confronter chaque année de salaire aux points reportés. SmartRetraite le fait automatiquement et signale les anomalies AGIRC-ARRCO qui minorent votre pension."
+  bouton="Analyser mes points AGIRC-ARRCO →"
+/>
+
+## Étape 4 — Faire corriger
+
+En cas d'écart, la réclamation s'adresse **directement à l'AGIRC-ARRCO** (et non
+à la CARSAT, qui ne gère que le régime de base), bulletins de salaire à l'appui.
+La complémentaire étant un dossier distinct, cette vérification est souvent
+négligée — alors qu'elle porte sur une fraction majeure de la pension.
+
+Un dernier réflexe : ne pas confondre une vraie anomalie avec le **coefficient
+de solidarité**, ce malus temporaire de 10 % appliqué pendant trois ans à ceux
+qui partent dès le taux plein. Ce n'est pas une erreur, mais une règle du régime.
+
+<ArticlesLies
+  liens={[
+    { href: "/anomalies/points-agirc-arrco", label: "AGIRC-ARRCO : l'erreur silencieuse qui grève la retraite complémentaire" },
+    { href: "/dossiers/fusion-agirc-arrco-2019", label: "Fusion AGIRC-ARRCO 2019 : l'origine des erreurs des cadres" },
+    { href: "/guides/lire-son-ris", label: "Comment lire et vérifier son relevé de carrière (RIS)" },
+  ]}
+/>
+
+</ArticleShell>

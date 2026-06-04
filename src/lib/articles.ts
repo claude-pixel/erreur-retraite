@@ -338,6 +338,23 @@ export const articles: Article[] = [
     auteur: "Claude-Henri Poitou",
     num: "19",
   },
+  {
+    slug: "fusion-agirc-arrco-2019",
+    section: "dossiers",
+    rubrique: "Dossiers · Régime complémentaire",
+    titre: "Fusion AGIRC-ARRCO 2019 : l'origine des erreurs qui touchent les cadres",
+    titreHtml:
+      "Fusion AGIRC-ARRCO 2019 : l'origine des erreurs qui touchent les <em>cadres</em>",
+    chapo:
+      "Le 1ᵉʳ janvier 2019, les régimes AGIRC (cadres) et ARRCO ont fusionné en un régime unique. La conversion des points, le passage aux tranches 1 et 2 et l'arrivée du coefficient de solidarité ont créé un terrain propice aux anomalies — particulièrement pour les cadres, qui cumulaient des droits dans les deux anciens régimes.",
+    motCle: "fusion AGIRC-ARRCO 2019 erreur",
+    volumeSEO: 1900,
+    impact: "Jusqu'à 40 % de la pension d'un cadre",
+    tempsLecture: 9,
+    datePublication: "2026-06-04",
+    auteur: "Claude-Henri Poitou",
+    num: "20",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
