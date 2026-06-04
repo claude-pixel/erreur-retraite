@@ -5,6 +5,7 @@ import { Lead } from "./Lead";
 import Link from "next/link";
 import { formatDate } from "@/lib/articles";
 import { AuthorBlock, authorVariantFor } from "@/components/author/AuthorBlock";
+import { CTASmartRetraite } from "@/components/cta/CTASmartRetraite";
 import { JsonLd } from "@/components/seo/JsonLd";
 import {
   buildArticleSchema,
@@ -107,11 +108,34 @@ export function ArticleShell({
           />
           <div className="prose-editorial mt-9 max-w-none">{children}</div>
 
+          <CTASmartRetraite
+            titre="Analysez votre relevé de carrière (RIS) en <em>cinq minutes</em>"
+            description="Notre service partenaire SmartRetraite passe votre relevé au crible et détecte les trimestres, points et revenus manquants qui minorent votre pension."
+            bouton="Analyser mon relevé →"
+          />
+
           <AuthorBlock variant={variant} auteur={auteur} />
         </article>
 
         <aside>
-          <ChiffresSidebar chiffres={chiffres} />
+          <div className="lg:sticky lg:top-24 space-y-6">
+            <ChiffresSidebar chiffres={chiffres} />
+            <div className="bg-paper border border-rule rounded-[18px] p-5">
+              <div className="rubrique-label mb-2.5">SmartRetraite</div>
+              <p className="text-[0.85rem] text-ink-2 leading-[1.5] mb-3">
+                Notre service partenaire vérifie votre relevé de carrière et
+                détecte les anomalies qui minorent votre pension.
+              </p>
+              <a
+                href="https://smartretraite.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-[0.85rem] font-semibold text-emerald hover:underline"
+              >
+                Découvrir SmartRetraite →
+              </a>
+            </div>
+          </div>
         </aside>
       </div>
     </div>

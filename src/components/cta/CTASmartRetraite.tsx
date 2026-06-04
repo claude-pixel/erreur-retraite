@@ -3,7 +3,7 @@ export function CTASmartRetraite({
   description = "Notre service partenaire SmartRetraite analyse votre relevé de carrière et détecte automatiquement les anomalies qui grèvent votre pension.",
   bouton = "Lancer mon diagnostic gratuit →",
   href = "https://smartretraite.fr/analyse",
-  decouvrir = true,
+  decouvrir = false,
   decouvrirHref = "https://smartretraite.fr",
 }: {
   titre?: string;
