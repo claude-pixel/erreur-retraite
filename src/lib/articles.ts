@@ -355,6 +355,40 @@ export const articles: Article[] = [
     auteur: "Claude-Henri Poitou",
     num: "20",
   },
+  {
+    slug: "retraite-medecin-carmf",
+    section: "dossiers",
+    rubrique: "Dossiers · Professions de santé",
+    titre: "Retraite des médecins : le guide des trois étages CARMF et leurs erreurs",
+    titreHtml:
+      "Retraite des médecins : les <em>trois étages</em> CARMF et leurs erreurs",
+    chapo:
+      "Base CNAVPL, complémentaire CARMF, supplémentaire ASV : la retraite d'un médecin libéral repose sur trois régimes superposés, aux cotisations, valeurs de point et règles distinctes. Cette superposition, et le statut conventionné secteur 1 ou 2, multiplient les points de friction où des droits se perdent.",
+    motCle: "retraite médecin CARMF",
+    volumeSEO: 1600,
+    impact: "3 régimes, jusqu'à plusieurs milliers d'€/an",
+    tempsLecture: 11,
+    datePublication: "2026-06-04",
+    auteur: "Claude-Henri Poitou",
+    num: "21",
+  },
+  {
+    slug: "retraite-avocat-cnbf",
+    section: "dossiers",
+    rubrique: "Dossiers · Professions du droit",
+    titre: "Retraite des avocats : la CNBF, son régime forfaitaire et ses pièges",
+    titreHtml:
+      "Retraite des avocats : la CNBF, son régime <em>forfaitaire</em> et ses pièges",
+    chapo:
+      "L'avocat relève d'un régime à part, la CNBF, dont la base n'est pas calculée sur les revenus mais sur un montant forfaitaire pondéré par la durée d'affiliation. À cela s'ajoute une complémentaire par classes, en pleine transition. Une mécanique singulière où la durée de carrière et le choix de classe pèsent autant que les revenus.",
+    motCle: "retraite avocat CNBF",
+    volumeSEO: 1300,
+    impact: "Base forfaitaire + complémentaire par classes",
+    tempsLecture: 10,
+    datePublication: "2026-06-04",
+    auteur: "Claude-Henri Poitou",
+    num: "22",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {
