@@ -178,7 +178,7 @@ export default function AuteurPoitouPage() {
               {articlesPoitou.map((a) => (
                 <Link
                   key={a.slug}
-                  href={`/anomalies/${a.slug}`}
+                  href={`/${a.section}/${a.slug}`}
                   className="group block bg-paper border border-rule rounded-2xl p-7 no-underline transition-all hover:-translate-y-1 hover:shadow-[0_12px_26px_rgba(29,44,44,0.06)] hover:border-emerald"
                 >
                   <div className="rubrique-label mb-3 !text-[0.7rem]">

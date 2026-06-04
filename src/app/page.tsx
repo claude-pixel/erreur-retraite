@@ -36,7 +36,7 @@ export default function Home() {
                 Sujet de la semaine
               </span>
               <h2 className="relative text-[1.75rem] leading-[1.2] font-bold text-white mb-3.5">
-                <Link href={`/anomalies/${hero.slug}`} className="text-white no-underline hover:text-sun-light">
+                <Link href={`/${hero.section}/${hero.slug}`} className="text-white no-underline hover:text-sun-light">
                   Trimestres manquants : récupérez les années oubliées
                 </Link>
               </h2>
@@ -46,7 +46,7 @@ export default function Home() {
                 On vous explique comment agir.
               </p>
               <Link
-                href={`/anomalies/${hero.slug}`}
+                href={`/${hero.section}/${hero.slug}`}
                 className="relative inline-flex items-center gap-2.5 bg-sun text-ink no-underline px-6 py-3 rounded-pill font-bold text-[0.93rem] hover:bg-white transition-colors"
               >
                 Lire le dossier →
@@ -131,7 +131,7 @@ export default function Home() {
               titre={a.titre.split(" : ")[0]}
               desc={a.chapo.length > 120 ? a.chapo.slice(0, 120) + "…" : a.chapo}
               impact={a.impact}
-              href={`/anomalies/${a.slug}`}
+              href={`/${a.section}/${a.slug}`}
               tempsLecture={a.tempsLecture}
             />
           ))}
