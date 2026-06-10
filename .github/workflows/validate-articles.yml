@@ -1,0 +1,60 @@
+name: Validation articles erreur-retraite.fr
+
+# Checklist §6 bloquante : la PR ne peut pas merger si un article échoue.
+# Déclarer le job "valider" en required status check dans la branch protection.
+#
+# Pas de filtre `paths:` — le job tourne sur toutes les PR et passe immédiatement
+# quand aucun article n'est touché. Indispensable avec un required status check :
+# sinon les PR sans article resteraient bloquées en attente d'un check absent.
+#
+# Modes :
+#   - article AJOUTÉ   (page.mdx nouveau)  → mode strict, checklist complète bloquante
+#   - article MODIFIÉ  (page.mdx existant) → mode --souple, avertissements seulement
+#     (le corpus publié avant la checklist n'est pas gelé ; les contrôles qui cassent
+#     la compilation MDX restent bloquants même en souple)
+
+on:
+  pull_request:
+
+jobs:
+  valider:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Articles modifiés dans la PR
+        id: diff
+        run: |
+          BASE="origin/${{ github.base_ref }}"
+          AJOUTES=$(git diff --name-only --diff-filter=A "$BASE"...HEAD -- 'src/app/**/page.mdx' | tr '\n' ' ')
+          MODIFIES=$(git diff --name-only --diff-filter=M "$BASE"...HEAD -- 'src/app/**/page.mdx' | tr '\n' ' ')
+          echo "ajoutes=$AJOUTES" >> "$GITHUB_OUTPUT"
+          echo "modifies=$MODIFIES" >> "$GITHUB_OUTPUT"
+          echo "Ajoutés (strict) : ${AJOUTES:-aucun}"
+          echo "Modifiés (souple) : ${MODIFIES:-aucun}"
+
+      - name: Checklist §6 — nouveaux articles (strict)
+        if: steps.diff.outputs.ajoutes != ''
+        run: node scripts/validate-article.mjs ${{ steps.diff.outputs.ajoutes }}
+
+      - name: Checklist §6 — articles existants modifiés (souple)
+        if: steps.diff.outputs.modifies != ''
+        run: node scripts/validate-article.mjs --souple ${{ steps.diff.outputs.modifies }}
+
+      - name: Aucun article touché
+        if: steps.diff.outputs.ajoutes == '' && steps.diff.outputs.modifies == ''
+        run: echo "Aucun article dans la PR — validation passée."
+
+      # Notification Telegram en cas d'échec, même canal que le pipeline éditorial
+      - name: Notif Telegram (échec)
+        if: failure()
+        run: |
+          curl -s "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d text="❌ Checklist §6 échouée — PR #${{ github.event.pull_request.number }} : ${{ github.event.pull_request.html_url }}"
