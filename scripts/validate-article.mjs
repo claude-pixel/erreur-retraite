@@ -112,10 +112,12 @@ function decouperSections(md) {
   return sections;
 }
 
-/** Extrait la valeur d'une prop chaîne d'ArticleShell, ex. titreHtml="..." */
+/** Extrait la valeur d'une prop chaîne d'ArticleShell, ex. titreHtml="..."
+ *  Respecte le délimiteur d'ouverture : une valeur entre " peut contenir des
+ *  apostrophes (« Chef d'entreprise »), fréquentes en français. */
 function propChaine(md, nom) {
-  const m = md.match(new RegExp(`${nom}\\s*=\\s*["']([^"']*)["']`));
-  return m ? m[1] : null;
+  const m = md.match(new RegExp(`${nom}\\s*=\\s*"([^"]*)"|${nom}\\s*=\\s*'([^']*)'`));
+  return m ? (m[1] ?? m[2]) : null;
 }
 
 // ---------- Vérifications ----------
