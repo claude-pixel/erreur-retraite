@@ -2,9 +2,9 @@ export function CTASmartRetraite({
   titre = "Diagnostiquez votre relevé en <em>cinq minutes</em>",
   description = "Notre service partenaire SmartRetraite analyse votre relevé de carrière et détecte automatiquement les anomalies qui grèvent votre pension.",
   bouton = "Lancer mon diagnostic gratuit →",
-  href = "https://smartretraite.fr/analyse",
+  href = "https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=cta-article",
   decouvrir = false,
-  decouvrirHref = "https://smartretraite.fr",
+  decouvrirHref = "https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=cta-article",
 }: {
   titre?: string;
   description?: string;

@@ -152,23 +152,6 @@ export const articles: Article[] = [
     num: "08",
   },
   {
-    slug: "retraite-gerant-sarl",
-    section: "anomalies",
-    rubrique: "Anomalies · Impact élevé",
-    titre: "Gérant de SARL : les erreurs de retraite selon majoritaire ou minoritaire",
-    titreHtml:
-      "Gérant de SARL : les erreurs selon <em>majoritaire ou minoritaire</em>",
-    chapo:
-      "Le statut social du gérant de SARL dépend de sa part dans le capital. Une bascule mal reconstituée entre régime général et SSI peut coûter plusieurs années de droits à la retraite.",
-    motCle: "retraite gérant SARL",
-    volumeSEO: 390,
-    impact: "Variable, souvent élevé",
-    tempsLecture: 8,
-    datePublication: "2026-04-22",
-    auteur: "Claude-Henri Poitou",
-    num: "09",
-  },
-  {
     slug: "retraite-cipav-erreur",
     section: "anomalies",
     rubrique: "Anomalies · Impact élevé",
@@ -184,23 +167,6 @@ export const articles: Article[] = [
     datePublication: "2026-04-22",
     auteur: "la rédaction d'erreur-retraite.fr",
     num: "10",
-  },
-  {
-    slug: "retraite-dirigeant-sas",
-    section: "anomalies",
-    rubrique: "Anomalies · Impact élevé",
-    titre: "Président de SAS : assimilé salarié mais régime particulier",
-    titreHtml:
-      "Président de SAS : <em>assimilé salarié</em> mais régime particulier",
-    chapo:
-      "Le président de SAS est affilié au régime général mais n'est pas automatiquement couvert par l'AGIRC-ARRCO, ni par l'assurance chômage. Un statut hybride aux anomalies spécifiques.",
-    motCle: "retraite président SAS",
-    volumeSEO: 310,
-    impact: "Jusqu'à 40 % de la retraite",
-    tempsLecture: 8,
-    datePublication: "2026-04-22",
-    auteur: "Claude-Henri Poitou",
-    num: "11",
   },
   {
     slug: "conge-maternite-retraite",
@@ -322,23 +288,6 @@ export const articles: Article[] = [
     num: "18",
   },
   {
-    slug: "retraite-tns-complete",
-    section: "dossiers",
-    rubrique: "Dossiers · Indépendants",
-    titre: "Retraite des indépendants : le guide complet des régimes SSI, CIPAV et CNAVPL",
-    titreHtml:
-      "Retraite des indépendants : le guide complet des régimes <em>SSI, CIPAV et CNAVPL</em>",
-    chapo:
-      "Artisans, commerçants, professions libérales, micro-entrepreneurs : les travailleurs non salariés relèvent de régimes éclatés, aux règles de cotisation et de validation distinctes. C'est aussi la population qui présente le taux d'anomalies de relevé le plus élevé. Panorama complet pour comprendre ses droits et repérer les erreurs.",
-    motCle: "retraite TNS indépendant guide",
-    volumeSEO: 14000,
-    impact: "100 à 400 €/mois d'écart fréquent",
-    tempsLecture: 12,
-    datePublication: "2026-06-03",
-    auteur: "Claude-Henri Poitou",
-    num: "19",
-  },
-  {
     slug: "fusion-agirc-arrco-2019",
     section: "dossiers",
     rubrique: "Dossiers · Régime complémentaire",
@@ -441,23 +390,6 @@ export const articles: Article[] = [
     num: "25",
   },
   {
-    slug: "retraite-auto-entrepreneur",
-    section: "dossiers",
-    rubrique: "Dossiers · Indépendants",
-    titre: "Auto-entrepreneur : votre retraite vaut-elle vraiment le coup ?",
-    titreHtml:
-      "Auto-entrepreneur : votre retraite vaut-elle <em>vraiment</em> le coup ?",
-    chapo:
-      "Cotisations calculées sur le chiffre d'affaires, trimestres validés sur un revenu reconstitué, points éclatés entre SSI et CIPAV selon l'activité et la date de création : la retraite du micro-entrepreneur obéit à des règles à part. Des règles qui créent de vrais droits — mais aussi des relevés truffés d'angles morts qu'il faut savoir contrôler.",
-    motCle: "retraite auto-entrepreneur",
-    volumeSEO: 2400,
-    impact: "Droits réels mais relevés à contrôler",
-    tempsLecture: 10,
-    datePublication: "2026-06-10",
-    auteur: "Claude-Henri Poitou",
-    num: "26",
-  },
-  {
     slug: "retraite-carriere-mixte",
     section: "guides",
     rubrique: "Guides · Carrière",
@@ -524,40 +456,6 @@ export const articles: Article[] = [
     datePublication: "2026-06-10",
     auteur: "Claude-Henri Poitou",
     num: "30",
-  },
-  {
-    slug: "retraite-cadre-dirigeant",
-    section: "dossiers",
-    rubrique: "Dossiers · Cadres et dirigeants",
-    titre: "Cadre dirigeant : vos 25 meilleures années sont-elles vraiment optimisées ?",
-    titreHtml:
-      "Cadre dirigeant : vos <em>25 meilleures années</em> sont-elles vraiment optimisées ?",
-    chapo:
-      "Plus la rémunération est élevée, plus la retraite de base plafonne tôt et plus le poids de la retraite complémentaire devient déterminant. Pour un cadre dirigeant, l'essentiel des droits se joue sur la tranche 2 AGIRC-ARRCO, celle qui couvre la part de salaire au-delà du plafond de la sécurité sociale. C'est aussi la ligne du relevé la plus souvent incomplète.",
-    motCle: "retraite cadre dirigeant optimisation",
-    volumeSEO: 720,
-    impact: "Tranche 2 AGIRC-ARRCO souvent incomplète",
-    tempsLecture: 12,
-    datePublication: "2026-06-10",
-    auteur: "Claude-Henri Poitou",
-    num: "31",
-  },
-  {
-    slug: "retraite-chef-entreprise",
-    section: "dossiers",
-    rubrique: "Dossiers · Dirigeants",
-    titre: "Chef d'entreprise : votre retraite est-elle à la hauteur de votre patrimoine ?",
-    titreHtml:
-      "Chef d'entreprise : votre retraite est-elle à la hauteur de votre <em>patrimoine</em> ?",
-    chapo:
-      "Un dirigeant peut bâtir une entreprise florissante et préparer, sans le savoir, une pension dérisoire. Tout se joue sur le statut : gérant majoritaire de SARL côté indépendants, président de SAS côté assimilés salariés. Deux mécaniques de droits radicalement différentes, où chaque arbitrage entre rémunération et dividendes laisse une trace — ou un trou — sur le relevé de carrière.",
-    motCle: "retraite chef entreprise dirigeant",
-    volumeSEO: 880,
-    impact: "Statut et arbitrage rémunération/dividendes",
-    tempsLecture: 12,
-    datePublication: "2026-06-10",
-    auteur: "Claude-Henri Poitou",
-    num: "32",
   },
   {
     slug: "retraite-freelance-consultant",

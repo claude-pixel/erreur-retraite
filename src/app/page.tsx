@@ -254,7 +254,7 @@ export default function Home() {
                 Détection automatique des anomalies en cinq minutes.
               </p>
               <a
-                href="https://smartretraite.fr/analyse"
+                href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-ink no-underline px-5 py-2.5 rounded-pill font-bold text-[0.88rem] hover:bg-sun transition-colors"
@@ -294,7 +294,7 @@ export default function Home() {
           titre="Une <em>synthèse hebdo</em>, pas de spam, résiliation en un clic"
           description="Rejoignez 12 000 lecteurs qui reçoivent chaque lundi un tour d'horizon des évolutions réglementaires et des alertes anomalies."
           bouton="S'inscrire à la newsletter →"
-          href="https://smartretraite.fr/analyse"
+          href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages"
         />
       </section>
     </>

@@ -106,7 +106,7 @@ export default function LireSonRisPage() {
         <p className="text-[0.95rem] text-ink-2 leading-[1.6] mb-4">
           Le service partenaire{" "}
           <a
-            href="https://smartretraite.fr/analyse"
+            href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -117,7 +117,7 @@ export default function LireSonRisPage() {
           démarches recommandées.
         </p>
         <a
-          href="https://smartretraite.fr/analyse"
+          href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-emerald text-white no-underline px-6 py-3 rounded-pill font-bold text-[0.92rem] hover:bg-emerald-2 transition-colors"

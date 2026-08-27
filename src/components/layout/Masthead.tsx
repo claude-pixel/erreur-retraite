@@ -32,7 +32,7 @@ export function Masthead() {
         </form>
 
         <a
-          href="https://smartretraite.fr/analyse"
+          href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=navigation"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-sun text-ink no-underline px-[22px] py-3 rounded-pill font-bold text-[0.9rem] hover:bg-sun-dark hover:text-white transition-colors whitespace-nowrap"

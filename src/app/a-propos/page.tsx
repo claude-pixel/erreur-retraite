@@ -68,7 +68,7 @@ export default function AProposPage() {
           <p>
             erreur-retraite.fr met en avant deux services complémentaires
             dont il est proche sur le plan éditorial :{" "}
-            <a href="https://smartretraite.fr">SmartRetraite</a> pour le
+            <a href="https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages">SmartRetraite</a> pour le
             diagnostic en ligne du relevé de carrière, et{" "}
             <a href="https://competence-retraite.fr">Compétence Retraite</a>{" "}
             pour l'accompagnement personnalisé. Ces mises en avant sont
