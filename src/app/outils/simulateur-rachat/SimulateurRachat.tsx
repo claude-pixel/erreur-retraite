@@ -164,7 +164,7 @@ export function SimulateurRachat() {
         <Verdict label={result.verdict.label} tone={result.verdict.tone} />
 
         <a
-          href="https://smartretraite.fr/analyse"
+          href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=outils"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-6 block text-center bg-sun text-ink no-underline px-6 py-4 rounded-pill font-bold text-[0.95rem] hover:bg-white transition-colors"

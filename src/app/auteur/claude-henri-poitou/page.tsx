@@ -18,7 +18,7 @@ const personSchema = {
   url: "https://www.erreur-retraite.fr/auteur/claude-henri-poitou",
   sameAs: [
     "https://competence-retraite.fr",
-    "https://smartretraite.fr",
+    "https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages",
   ],
   worksFor: [
     {
@@ -218,7 +218,7 @@ export default function AuteurPoitouPage() {
               <span className="text-emerald font-bold">→</span>
             </a>
             <a
-              href="https://smartretraite.fr"
+              href="https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between gap-4 bg-paper border border-rule rounded-xl px-5 py-4 no-underline hover:border-emerald transition-colors"

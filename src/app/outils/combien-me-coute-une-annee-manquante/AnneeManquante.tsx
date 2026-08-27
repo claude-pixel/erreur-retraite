@@ -118,7 +118,7 @@ export function AnneeManquante() {
 
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://smartretraite.fr/analyse"
+              href="https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=outils"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-sun text-ink no-underline px-6 py-3.5 rounded-pill font-bold text-[0.93rem] hover:bg-white transition-colors"

@@ -51,7 +51,7 @@ export function Footer() {
             </h5>
             <ul className="space-y-2.5 list-none p-0">
               <li>
-                <a href="https://smartretraite.fr" target="_blank" rel="noopener noreferrer" className="no-underline text-white/80 hover:text-sun">
+                <a href="https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=navigation" target="_blank" rel="noopener noreferrer" className="no-underline text-white/80 hover:text-sun">
                   SmartRetraite
                 </a>
               </li>

@@ -29,7 +29,7 @@ const channels = [
   {
     label: "Diagnostic en ligne rapide",
     desc: "Pour un contrôle express de votre relevé de carrière, le service partenaire SmartRetraite offre un diagnostic automatisé gratuit.",
-    href: "https://smartretraite.fr/analyse",
+    href: "https://smartretraite.fr/analyse?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages",
     cta: "Lancer un diagnostic →",
   },
 ];

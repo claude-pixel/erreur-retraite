@@ -228,7 +228,7 @@ export default function FAQPage() {
             <Link href="/outils">simulateurs gratuits</Link> ou les services
             partenaires{" "}
             <a
-              href="https://smartretraite.fr"
+              href="https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages"
               target="_blank"
               rel="noopener noreferrer"
             >

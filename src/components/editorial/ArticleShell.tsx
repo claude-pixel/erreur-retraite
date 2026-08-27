@@ -127,7 +127,7 @@ export function ArticleShell({
                 détecte les anomalies qui minorent votre pension.
               </p>
               <a
-                href="https://smartretraite.fr"
+                href="https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=navigation"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1 text-[0.85rem] font-semibold text-emerald hover:underline"

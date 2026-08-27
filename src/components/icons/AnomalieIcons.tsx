@@ -273,8 +273,6 @@ export const ANOMALIE_ICON_MAP: Record<string, (p: IconProps) => React.ReactElem
   "rachat-trimestres": CoinsIcon,
   "periodes-chomage": ClockIcon,
   "salaires-sam": SalaryChartIcon,
-  "retraite-gerant-sarl": BuildingIcon,
-  "retraite-dirigeant-sas": ColumnsIcon,
   "retraite-cipav-erreur": FeatherIcon,
   "conge-maternite-retraite": HeartIcon,
   "retraite-pluriactivite": SwitchIcon,
@@ -283,7 +281,6 @@ export const ANOMALIE_ICON_MAP: Record<string, (p: IconProps) => React.ReactElem
   "retraite-progressive": HourglassIcon,
   "depart-anticipe-carriere-longue": FastForwardIcon,
   "retraite-femme-inegalites": ScalesIcon,
-  "retraite-tns-complete": BriefcaseIcon,
 };
 
 export function AnomalieIcon({
