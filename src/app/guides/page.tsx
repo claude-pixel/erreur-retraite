@@ -50,11 +50,22 @@ const guides = [
     desc: "Modèles personnalisables : rectification trimestres, demande de relevé militaire, saisine CRA, rectification AGIRC-ARRCO.",
     tag: "Téléchargeable",
   },
+  {
+    href: "/guides/delais-correction-erreur",
+    titre: "Corriger une erreur de retraite : combien de temps faut-il vraiment ?",
+    desc: "Les délais réels, caisse par caisse : régularisation, saisine de la CRA sous 2 mois, recours — et pourquoi tout doit être terminé avant la demande de retraite.",
+    tag: "Démarches",
+  },
+  {
+    href: "/guides/retraite-carriere-mixte",
+    titre: "Carrière mixte salarié/TNS : éviter les trous entre régimes",
+    desc: "Chaque changement de statut est un point de fragilité du relevé : la méthode pour sécuriser les jonctions entre régimes.",
+    tag: "Méthode",
+  },
 ];
 
 const prochainement = [
-  "Carrière mixte salarié/TNS : éviter les trous entre régimes",
-  "Délais de correction par caisse et par type d'anomalie",
+  "Surcotisation du temps partiel : le levier méconnu de la fonction publique",
 ];
 
 export default function GuidesPage() {

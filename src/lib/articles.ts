@@ -491,6 +491,91 @@ export const articles: Article[] = [
     auteur: "Claude-Henri Poitou",
     num: "34",
   },
+  {
+    slug: "retraite-par-regime",
+    section: "dossiers",
+    rubrique: "Dossiers · Panorama",
+    titre: "De combien de régimes de retraite dépendez-vous ? Panorama 2026",
+    titreHtml:
+      "De combien de <em>régimes de retraite</em> dépendez-vous ?",
+    chapo:
+      "Salarié, puis indépendant, parfois fonctionnaire ou libéral entre les deux : chaque statut professionnel vous rattache à un couple de régimes de retraite, base et complémentaire. Chaque régime supplémentaire est un compte de plus à alimenter — et un risque d'erreur de plus au moment de liquider. La Cour des comptes relève qu'une pension nouvellement attribuée sur neuf comporte une erreur financière. Recenser précisément les régimes dont vous relevez est donc la première étape de toute vérification.",
+    motCle: "régimes de retraite france",
+    volumeSEO: 8000,
+    impact: "Repère fondamental — 1 régime oublié = des droits perdus",
+    tempsLecture: 12,
+    datePublication: "2026-09-01",
+    auteur: "Claude-Henri Poitou",
+    num: "35",
+  },
+  {
+    slug: "delais-correction-erreur",
+    section: "guides",
+    rubrique: "Guides pratiques · Démarches",
+    titre: "Corriger une erreur de retraite : combien de temps faut-il vraiment ?",
+    titreHtml:
+      "Corriger une erreur de retraite : combien de <em>temps</em> faut-il vraiment ?",
+    chapo:
+      "Deux à six mois pour une régularisation, deux mois seulement pour contester un refus, des mois encore devant le tribunal : la correction d'une erreur de retraite se compte rarement en semaines. Caisse par caisse et recours par recours, voici les délais réellement constatés — et pourquoi la vérification doit commencer deux à trois ans avant le départ.",
+    motCle: "délai correction erreur retraite",
+    volumeSEO: 900,
+    impact: "Décisif à l'approche du départ",
+    tempsLecture: 9,
+    datePublication: "2026-09-01",
+    auteur: "Claude-Henri Poitou",
+    num: "36",
+  },
+  {
+    slug: "surcote-retraite-optimisation",
+    section: "dossiers",
+    rubrique: "Dossiers · Optimisation",
+    titre: "Surcote : travailler plus longtemps vaut-il vraiment le coup ?",
+    titreHtml:
+      "Surcote : travailler plus longtemps vaut-il <em>vraiment</em> le coup ?",
+    chapo:
+      "Chaque trimestre cotisé au-delà de l'âge légal majore la pension de base de 1,25 %, sans plafond. Sur le papier, la surcote est le levier le plus simple de la fin de carrière. En pratique, elle obéit à des conditions étroites — seuls les trimestres cotisés comptent — et repose sur un relevé de carrière exact, ce qui est loin d'être garanti : une pension nouvellement attribuée sur neuf comporte une erreur financière. Mécanique, pièges et comparaison honnête avec le rachat de trimestres.",
+    motCle: "surcote retraite",
+    volumeSEO: 5400,
+    impact: "+1,25 % par trimestre, à vie",
+    tempsLecture: 10,
+    datePublication: "2026-09-01",
+    auteur: "Claude-Henri Poitou",
+    num: "37",
+  },
+  {
+    slug: "taux-plein-automatique-67",
+    section: "dossiers",
+    rubrique: "Dossiers · Comprendre",
+    titre: "Taux plein automatique à 67 ans : votre pension sera-t-elle vraiment pleine ?",
+    titreHtml:
+      "Taux plein automatique à 67 ans : votre pension sera-t-elle vraiment <em>pleine</em> ?",
+    chapo:
+      "À 67 ans, la retraite est accordée « au taux plein » quel que soit le nombre de trimestres : la décote disparaît. Beaucoup en concluent que leur pension sera complète — c'est faux. Le calcul reste proratisé : 120 trimestres validés sur 172 requis donnent environ 70 % d'une pension entière, même à 67 ans. Décryptage du malentendu le plus coûteux du système, et de ce que votre relevé de carrière peut encore y changer.",
+    motCle: "taux plein 67 ans",
+    volumeSEO: 2900,
+    impact: "Pension partielle malgré le taux plein",
+    tempsLecture: 10,
+    datePublication: "2026-09-01",
+    auteur: "Claude-Henri Poitou",
+    num: "38",
+  },
+  {
+    slug: "audit-retraite-methodologie",
+    section: "dossiers",
+    rubrique: "Dossiers · Méthode",
+    titre: "Comment se déroule un audit retraite ? Méthode et tarifs 2026",
+    titreHtml:
+      "Comment se déroule un <em>audit retraite</em> — et qu'en attendre ?",
+    chapo:
+      "Une pension nouvellement attribuée sur neuf comporte une erreur financière, et les caisses ne corrigent pas spontanément. Face à ce constat, l'audit retraite s'est imposé comme un contrôle méthodique du dossier avant la liquidation : collecter les pièces, reconstituer la carrière, chiffrer chaque anomalie, obtenir les régularisations, arbitrer la date de départ. Voici comment se déroule cette vérification professionnelle, étape par étape — et comment choisir entre diagnostic en ligne et accompagnement humain.",
+    motCle: "audit retraite",
+    volumeSEO: 1300,
+    impact: "Passerelle diagnostic → cabinet",
+    tempsLecture: 10,
+    datePublication: "2026-09-01",
+    auteur: "Claude-Henri Poitou",
+    num: "39",
+  },
 ];
 
 export function getArticleBySlug(slug: string): Article | undefined {

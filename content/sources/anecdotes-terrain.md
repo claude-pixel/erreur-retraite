@@ -47,7 +47,7 @@
 - id: cnav-002
   regime: cnav
   theme: rachat
-  utilise_dans: []
+  utilise_dans: [surcote-retraite-optimisation]
   texte: >
     Rachat de trimestres envisagé sur un dossier de salarié en fin de carrière, puis écarté
     après vérification du barème réel à son âge : la retraite progressive combinée à la
@@ -77,7 +77,7 @@
 - id: agirc-arrco-001
   regime: agirc-arrco
   theme: points
-  utilise_dans: []
+  utilise_dans: [delais-correction-erreur]
   texte: >
     Sur un dossier de salarié parti en retraite cette année, la période de chômage indemnisé
     de fin de carrière manquait au relevé de points — environ 70 €/mois de complémentaire en
@@ -97,7 +97,7 @@
 - id: fonctionnaires-001
   regime: fonctionnaires
   theme: mda
-  utilise_dans: []
+  utilise_dans: [taux-plein-automatique-67]
   texte: >
     Fonctionnaire détachée dont le relevé laissait croire à une décote : ses 16 trimestres de
     majoration pour enfants donnaient en réalité le taux plein. Départ possible deux ans plus
@@ -117,7 +117,7 @@
 - id: msa-001
   regime: msa
   theme: trimestres
-  utilise_dans: []
+  utilise_dans: [audit-retraite-methodologie]
   texte: >
     Exploitant agricole, père de famille nombreuse : l'AVPF s'était arrêtée en 2004 sans que
     personne ne le signale, et une dette de cotisations MSA bloquait la validation de
@@ -128,7 +128,7 @@
 - id: cipav-001
   regime: cipav
   theme: affiliation
-  utilise_dans: []
+  utilise_dans: [retraite-par-regime]
   texte: >
     Une psychomotricienne classée « ingénieur conseil » par un outil professionnel de
     simulation : mauvaise section, mauvais barème, projection fausse. Même les outils payants
