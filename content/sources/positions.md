@@ -34,8 +34,8 @@
 
 ## Entrées
 
-> Positions validées par Claude-Henri le 01/09/2026 (sauf pos-per-vs-av, encore à rédiger),
-> nourries de dossiers clients réels du cabinet.
+> Les 5 positions validées par Claude-Henri le 01/09/2026, nourries de dossiers clients
+> réels du cabinet.
 
 - id: pos-rachat-trimestres
   sujets: [rachat, trimestres, versement-pour-la-retraite]
@@ -65,13 +65,29 @@
   sujets: [per, assurance-vie, epargne-retraite, madelin]
   regimes: [tous]
   position: >
-    [À RÉDIGER PAR CHP — ta position construite sur PFL 7,5 % vs sortie en capital,
-    à formaliser ici : la phrase qui tranche + 2 arguments + exceptions.]
+    À 30 % de tranche marginale et au-delà, le PER se fait — avec une logique simple :
+    « ce qui est pris est pris », la déduction encaissée aujourd'hui est certaine.
+    En dessous de 30 %, l'assurance-vie fait mieux, pour le même objectif, sans
+    verrouiller votre épargne.
   arguments:
     - >
-      [.]
+      L'avantage du PER n'est pas la déduction en soi, c'est le différentiel de tranche
+      entre l'entrée et la sortie : les versements déduits sont réimposés au barème à la
+      sortie en capital. Déduire à 11 % pour être réimposé à 11 % — voire plus — est un
+      jeu à somme nulle, avec vingt ans de blocage en prime.
+    - >
+      À 30, 41 ou 45 %, « ce qui est pris est pris » : l'économie d'impôt est immédiate
+      et acquise, quand la fiscalité de sortie — lointaine — reste incertaine et se
+      pilote (retraits étalés, tranche de retraité généralement plus basse).
+    - >
+      L'assurance-vie après 8 ans sort les gains à 7,5 % après abattement annuel de
+      4 600 € (9 200 € pour un couple), reste disponible à tout moment en cas de coup
+      dur, et transmet dans un cadre fiscal privilégié.
   exceptions: >
-    [.]
+    Le déblocage anticipé pour l'achat de la résidence principale, qui rend au PER une
+    liquidité partielle ; le TNS qui sature ses plafonds dans une logique Madelin
+    historique ; et l'épargnant qui a précisément besoin de la discipline forcée du
+    blocage pour épargner.
 
 - id: pos-reforme-effets-reels
   sujets: [reforme, age-legal, duree-cotisation]
