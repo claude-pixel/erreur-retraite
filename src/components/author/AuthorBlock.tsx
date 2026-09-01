@@ -5,7 +5,7 @@ type Variant = "nominative" | "redaction" | "redaction-avec-expert";
 const POITOU = {
   name: "Claude-Henri Poitou",
   title: "Consultant en protection sociale — 18 ans d'expérience",
-  credentials: "Ancien consultant AG2R La Mondiale · Fondateur Compétence Retraite",
+  credentials: "Expert retraite · Fondateur Compétence Retraite",
   initials: "CP",
   href: "/auteur/claude-henri-poitou",
 };

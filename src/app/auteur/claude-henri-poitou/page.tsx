@@ -5,7 +5,7 @@ import { RubriqueLabel } from "@/components/editorial/RubriqueLabel";
 export const metadata = {
   title: "Claude-Henri Poitou — expert en protection sociale et retraite",
   description:
-    "Biographie et articles de Claude-Henri Poitou, consultant en protection sociale et retraite (18 ans d'expérience, ex-AG2R, fondateur Compétence Retraite).",
+    "Biographie et articles de Claude-Henri Poitou, consultant en protection sociale, expert retraite (18 ans d'expérience, fondateur de Compétence Retraite).",
 };
 
 const personSchema = {
