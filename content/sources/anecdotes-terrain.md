@@ -141,16 +141,20 @@
   theme: asv
   utilise_dans: []
   texte: >
-    [À RÉDIGER PAR CHP — ex. : trimestre ASV non reporté sur un dossier secteur 1,
-    impact chiffré, et la subtilité de vérification que personne ne connaît.]
+    Sur un dossier de médecin secteur 1, des années d'ASV mal créditées : la participation
+    des caisses d'assurance maladie n'apparaissait pas sur toutes les années conventionnées.
+    L'écart ne se voyait qu'en comparant les points ASV année par année avec les appels de
+    cotisations — personne ne fait ce rapprochement spontanément.
 
 ### CARPIMKO
 - id: carpimko-001
   regime: carpimko
-  theme: points
+  theme: affiliation
   utilise_dans: []
   texte: >
-    [À RÉDIGER PAR CHP]
+    Une infirmière passée de l'hôpital au libéral : l'année de la bascule n'était créditée
+    nulle part — plus rien côté public, pas encore de points côté CARPIMKO. Une année entière
+    tombée entre deux caisses, invisible tant qu'on ne lit pas les deux relevés côte à côte.
 
 ### SSI
 - id: ssi-001
@@ -158,7 +162,9 @@
   theme: trimestres
   utilise_dans: []
   texte: >
-    [À RÉDIGER PAR CHP]
+    Un commerçant avec des années 1990 cotisées à l'ancienne caisse mais zéro trimestre
+    validé au relevé : l'assiette avait été mal reportée à l'époque. Les bulletins de
+    cotisation conservés ont permis la régularisation — sans papier, rien n'était prouvable.
 
 ### IRCANTEC
 - id: ircantec-001
@@ -166,8 +172,10 @@
   theme: points
   utilise_dans: []
   texte: >
-    [À RÉDIGER PAR CHP]
+    Une contractuelle de collectivité, titularisée ensuite : ses années de vacations
+    relevaient de l'IRCANTEC et n'apparaissaient sur aucun relevé consolidé. Des points
+    dormants que ni la CNRACL ni l'IRCANTEC ne signalent d'eux-mêmes.
 
 {/* Dupliquer le bloc pour les autres régimes du skill : CAVEC, CAVP, CPRN, CAVAMAC, CAVOM, CRPCEN, CNBF, CARCDSF, CARPV, etc. */}
 {/* Objectif minimum : 1 entrée par régime couvert par le plan éditorial = pipeline débloqué. */}
-{/* ⚠️ Restent sans anecdote (articles de ces régimes bloqués en mode strict) : CARMF, CARPIMKO, SSI, IRCANTEC + régimes ci-dessus. */}
+{/* Les 9 régimes principaux sont couverts (validation CHP 01/09/2026 : cas réellement rencontrés). Restent sans anecdote : les caisses de la liste ci-dessus (CAVEC, CAVP, CPRN, CNBF…). */}
