@@ -25,6 +25,8 @@ export const metadata: Metadata = {
   },
   description:
     "Site d'information sur la retraite et la protection sociale. Repérez les erreurs de pension, comprenez vos droits et les démarches à entreprendre.",
+  // "./" est résolu par Next sur le chemin de chaque page : canonique auto-référente partout.
+  alternates: { canonical: "./" },
   openGraph: {
     type: "website",
     locale: "fr_FR",
