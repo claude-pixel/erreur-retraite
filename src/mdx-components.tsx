@@ -7,6 +7,7 @@ import { EncadreReglementaire } from "@/components/editorial/EncadreReglementair
 import { ChiffresSidebar } from "@/components/editorial/ChiffresSidebar";
 import { ArticlesLies } from "@/components/editorial/ArticlesLies";
 import { ArticleShell } from "@/components/editorial/ArticleShell";
+import { VideoYouTube } from "@/components/editorial/VideoYouTube";
 import { CTASmartRetraite } from "@/components/cta/CTASmartRetraite";
 import { Rule } from "@/components/ui/Rule";
 
@@ -20,6 +21,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     EncadreReglementaire,
     ChiffresSidebar,
     ArticlesLies,
+    VideoYouTube,
     CTASmartRetraite,
     Rule,
     ...components,
