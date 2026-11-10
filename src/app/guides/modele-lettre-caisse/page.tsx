@@ -259,7 +259,7 @@ export default function ModelesLettrePage() {
           Pour les situations complexes (carrières mixtes, pluriactivité,
           carrière internationale, TNS), l'audit humain par{" "}
           <a
-            href="https://competence-retraite.fr"
+            href="https://www.competence-retraite.fr"
             target="_blank"
             rel="noopener noreferrer"
           >

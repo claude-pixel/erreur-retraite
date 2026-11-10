@@ -23,7 +23,7 @@ const channels = [
   {
     label: "Demande d'audit personnalisé",
     desc: "Pour les situations complexes (TNS, expatriation, carrière mixte), l'audit humain est assuré par Compétence Retraite.",
-    href: "https://competence-retraite.fr",
+    href: "https://www.competence-retraite.fr",
     cta: "Accéder à Compétence Retraite →",
   },
   {

@@ -26,7 +26,7 @@ function ExpertiseMention() {
     <div className="mt-5 pt-5 border-t border-rule text-[0.92rem] text-ink-2 leading-[1.55]">
       Cet article a bénéficié de l'expertise de{" "}
       <a
-        href="https://competence-retraite.fr"
+        href="https://www.competence-retraite.fr"
         target="_blank"
         rel="noopener noreferrer"
         className="font-bold"

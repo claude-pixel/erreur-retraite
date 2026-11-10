@@ -11,10 +11,10 @@ export const ORGANIZATION_SCHEMA = {
   publisher: {
     "@type": "Organization",
     name: "Compétence Retraite EURL",
-    url: "https://competence-retraite.fr",
+    url: "https://www.competence-retraite.fr",
   },
   sameAs: [
-    "https://competence-retraite.fr",
+    "https://www.competence-retraite.fr",
     "https://smartretraite.fr",
   ],
 };
