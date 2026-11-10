@@ -56,7 +56,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://competence-retraite.fr" target="_blank" rel="noopener noreferrer" className="no-underline text-white/80 hover:text-sun">
+                <a href="https://www.competence-retraite.fr" target="_blank" rel="noopener noreferrer" className="no-underline text-white/80 hover:text-sun">
                   Compétence Retraite
                 </a>
               </li>

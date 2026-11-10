@@ -128,7 +128,7 @@ export default function OutilsPage() {
           expatriation, dispositif particulier — un audit humain
           personnalisé par{" "}
           <a
-            href="https://competence-retraite.fr"
+            href="https://www.competence-retraite.fr"
             target="_blank"
             rel="noopener noreferrer"
           >

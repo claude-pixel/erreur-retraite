@@ -17,14 +17,14 @@ const personSchema = {
     "Expert en régimes sociaux et retraite des travailleurs non-salariés. Dix-huit ans d'expérience en protection sociale.",
   url: "https://www.erreur-retraite.fr/auteur/claude-henri-poitou",
   sameAs: [
-    "https://competence-retraite.fr",
+    "https://www.competence-retraite.fr",
     "https://smartretraite.fr/?utm_source=erreur-retraite&utm_medium=referral&utm_campaign=pages",
   ],
   worksFor: [
     {
       "@type": "Organization",
       name: "Compétence Retraite EURL",
-      url: "https://competence-retraite.fr",
+      url: "https://www.competence-retraite.fr",
     },
   ],
   alumniOf: {
@@ -206,7 +206,7 @@ export default function AuteurPoitouPage() {
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <a
-              href="https://competence-retraite.fr"
+              href="https://www.competence-retraite.fr"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between gap-4 bg-paper border border-rule rounded-xl px-5 py-4 no-underline hover:border-emerald transition-colors"

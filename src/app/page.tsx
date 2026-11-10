@@ -276,7 +276,7 @@ export default function Home() {
                 TNS, dirigeants, carrières internationales.
               </p>
               <a
-                href="https://competence-retraite.fr"
+                href="https://www.competence-retraite.fr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-ink no-underline px-5 py-2.5 rounded-pill font-bold text-[0.88rem] hover:bg-sun transition-colors"

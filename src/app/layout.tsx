@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.erreur-retraite.fr"),
   title: {
     default: "erreur-retraite.fr — L'information retraite enfin accessible",
-    template: "%s — erreur-retraite.fr",
+    template: "%s",
   },
   description:
     "Site d'information sur la retraite et la protection sociale. Repérez les erreurs de pension, comprenez vos droits et les démarches à entreprendre.",
