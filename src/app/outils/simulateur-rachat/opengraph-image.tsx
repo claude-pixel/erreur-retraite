@@ -1,6 +1,5 @@
 import { createOgImage, OG_SIZE, OG_CONTENT_TYPE } from "@/lib/og";
 
-export const runtime = "edge";
 export const alt = "Simulateur rachat de trimestres";
 export const size = OG_SIZE;
 export const contentType = OG_CONTENT_TYPE;
